@@ -1,0 +1,117 @@
+body {
+    background-color: hsl(180, 20%, 25%);
+    color: hsl(180, 50%, 90%)
+}
+  
+div.nav {
+    position: fixed;
+    width: 10em;
+    height: 100%;
+    padding-top: 10em;
+}
+
+ul.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+li.nav {
+    padding-left: 1em;
+}
+
+li a.nav-active {
+    display: block;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    padding-bottom: 0.1em;
+    background-color: hsl(180, 50%, 90%);
+    color: hsl(180, 20%, 25%);
+    border: solid 1px #FFF;
+    border-style: inset hidden hidden hidden;
+    border-radius: 0.66em;
+    text-decoration: none;
+}
+    
+li a.nav-inactive {
+    display: block;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    padding-bottom: 0.1em;
+    background-color: hsl(40, 20%, 30%);
+    border: solid 1px #FFF;
+    border-style: inset hidden hidden hidden;
+    border-radius: 0.66em;
+    text-decoration: none;
+}
+
+li a.nav-inactive:hover {
+    background-color: hsl(160, 50%, 30%)
+}
+ 
+.divmain {
+    text-align: center;
+    margin-left: 10em;
+}
+
+@media (max-width: 55em) {
+    div.nav {
+        position: relative;
+        width: initial;
+        max-width: 10em;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 0;
+        height: auto;
+    }
+    .divmain {
+        margin-left: 0;
+    }
+}
+
+tr {
+    background-color: hsl(210, 50%, 20%);
+  /*border-collapse: collapse;*//*
+    border-bottom: 1px solid #ddd;
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+  /*border-radius: 10px;*/
+}
+
+td {
+    border: solid 1px #FFF;
+    border-style: inset hidden hidden hidden;
+    padding: 0.1em
+}
+
+td:first-child {
+    border-top-left-radius: 0.66em;
+    border-bottom-left-radius: 0.66em;
+    padding-left: 0.66em;
+}
+
+td:last-child {
+    border-top-right-radius: 0.66em;
+    border-bottom-right-radius: 0.66em;
+    padding-right: 0.5em;
+}
+
+a:link {
+    color: hsl(160, 75%, 75%);
+}
+
+a:visited {
+    color: hsl(160, 50%, 50%)
+}
+
+a:hover {
+    color: hsl(160, 50%, 90%)
+}
+
+a:active {
+    color: hsl(160, 100%, 85%)
+}

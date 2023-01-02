@@ -1,5 +1,6 @@
 <head><title>johnnydmad Core</title></head><body>
 <link rel="stylesheet" href="https://unpkg.com/@smwcentral/spc-player@1.2.0/dist/spc_player.css">
+<link rel="stylesheet" href="../johnnydmad.css">
 <script src="https://unpkg.com/@smwcentral/spc-player@1.2.0/dist/spc.js"></script>
 
 <style>
@@ -8,7 +9,11 @@ table {
     margin-right: auto;
     }
 </style>
-<div style="text-align: center">
+<div class="nav">
+<ul class="nav"><li class="nav">Libraries:</li>
+<li><a href='../core/' class='nav-active'>Core</a></li><li><a href='../legacy/' class='nav-inactive'>Legacy</a></li><li><a href='../tierboss/' class='nav-inactive'>Tierboss</a></li><li><a href='../victory/' class='nav-inactive'>Victory</a></li><li><a href='../sleep/' class='nav-inactive'>Sleep</a></li><li><a href='../game_over/' class='nav-inactive'>Game over</a></li><li><a href='../static/' class='nav-inactive'>Static</a></li><li><a href='../upcoming/' class='nav-inactive'>Upcoming</a></li>
+</ul></div>
+<div class="divmain">
 <a href="..">Go back</a>
 
 <h1>johnnydmad Core</h1><p>These are the general-purpose background tracks included with and created for <em>johnnydmad</em>, using its built-in custom sample set.</p><table>
@@ -25,9 +30,9 @@ table {
 <tr>
 <td><button type='button' onclick='playSpcFile("7th_darkness")'>PLAY</button></td>
 <td>7th_darkness</td>
-<td>7th Saga</td>
+<td>The 7th Saga</td>
 <td>Battle in a World of Darkness</td>
-<td>NYI</td>
+<td>1:55</td>
 <td>Norihiko Yamanuki</td>
 <td>Rushlight</td>
 <td><a href='7th_darkness.spc' id='7th_darkness'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/7th_darkness.mml'>Source</a></td>
@@ -35,9 +40,9 @@ table {
 <tr>
 <td><button type='button' onclick='playSpcFile("7th_ruins")'>PLAY</button></td>
 <td>7th_ruins</td>
-<td>7th Saga</td>
+<td>The 7th Saga</td>
 <td>Wilme Pelin</td>
-<td>NYI</td>
+<td>1:46</td>
 <td>Norihiko Yamanuki</td>
 <td>Rushlight</td>
 <td><a href='7th_ruins.spc' id='7th_ruins'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/7th_ruins.mml'>Source</a></td>
@@ -47,7 +52,7 @@ table {
 <td>7th_town</td>
 <td>The 7th Saga</td>
 <td>Fortress City</td>
-<td>NYI</td>
+<td>1:56</td>
 <td>Norihiko Yamanuki</td>
 <td>emberling</td>
 <td><a href='7th_town.spc' id='7th_town'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/7th_town.mml'>Source</a></td>
@@ -57,27 +62,47 @@ table {
 <td>arc_battle</td>
 <td>Arcana</td>
 <td>Conflict</td>
-<td>NYI</td>
+<td>1:22</td>
 <td>Jun Ishikawa, Hirokazu Ando</td>
 <td>emberling</td>
 <td><a href='arc_battle.spc' id='arc_battle'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/arc_battle.mml'>Source</a></td>
+</tr>
+<tr>
+<td><button type='button' onclick='playSpcFile("arc_battle:nointro")'>PLAY</button></td>
+<td>arc_battle:nointro</td>
+<td>Arcana</td>
+<td>Conflict</td>
+<td>1:21</td>
+<td>Jun Ishikawa, Hirokazu Ando</td>
+<td>emberling</td>
+<td><a href='arc_battle_nointro.spc' id='arc_battle:nointro'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/arc_battle.mml'>Source</a></td>
 </tr>
 <tr>
 <td><button type='button' onclick='playSpcFile("bl_fahrenheit")'>PLAY</button></td>
 <td>bl_fahrenheit</td>
 <td>Bahamut Lagoon</td>
 <td>Fahrenheit's Theme part.1</td>
-<td>NYI</td>
+<td>2:38</td>
 <td>Noriko Matsueda</td>
 <td>emberling</td>
 <td><a href='bl_fahrenheit.spc' id='bl_fahrenheit'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/bl_fahrenheit.mml'>Source</a></td>
+</tr>
+<tr>
+<td><button type='button' onclick='playSpcFile("bl_fahrenheit:nointro")'>PLAY</button></td>
+<td>bl_fahrenheit:nointro</td>
+<td>Bahamut Lagoon</td>
+<td>Fahrenheit's Theme part.1</td>
+<td>2:23</td>
+<td>Noriko Matsueda</td>
+<td>emberling</td>
+<td><a href='bl_fahrenheit_nointro.spc' id='bl_fahrenheit:nointro'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/bl_fahrenheit.mml'>Source</a></td>
 </tr>
 <tr>
 <td><button type='button' onclick='playSpcFile("blord_ruins")'>PLAY</button></td>
 <td>blord_ruins</td>
 <td>Brain Lord</td>
 <td>Site of Civilization</td>
-<td>NYI</td>
+<td>2:54</td>
 <td>Masanao Akahori</td>
 <td>emberling</td>
 <td><a href='blord_ruins.spc' id='blord_ruins'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/blord_ruins.mml'>Source</a></td>
@@ -87,7 +112,7 @@ table {
 <td>bof1_dawn</td>
 <td>Breath of Fire</td>
 <td>Dawn</td>
-<td>NYI</td>
+<td>1:37</td>
 <td>Yasuaki Fujita</td>
 <td>emberling</td>
 <td><a href='bof1_dawn.spc' id='bof1_dawn'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/bof1_dawn.mml'>Source</a></td>
@@ -97,7 +122,7 @@ table {
 <td>bof1_jade</td>
 <td>Breath of Fire</td>
 <td>Black Dragon</td>
-<td>NYI</td>
+<td>1:53</td>
 <td>Yasuaki Fujita</td>
 <td>Rushlight</td>
 <td><a href='bof1_jade.spc' id='bof1_jade'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/bof1_jade.mml'>Source</a></td>
@@ -107,7 +132,7 @@ table {
 <td>bof2_barubary</td>
 <td>Breath of Fire II</td>
 <td>Critical Moment</td>
-<td>NYI</td>
+<td>0:41</td>
 <td>Yuko Takehara</td>
 <td>Rushlight</td>
 <td><a href='bof2_barubary.spc' id='bof2_barubary'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/bof2_barubary.mml'>Source</a></td>
@@ -117,7 +142,7 @@ table {
 <td>bof2_battle</td>
 <td>Breath of Fire II</td>
 <td>Cross Counter</td>
-<td>NYI</td>
+<td>1:03</td>
 <td>Yuko Takehara</td>
 <td>emberling</td>
 <td><a href='bof2_battle.spc' id='bof2_battle'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/bof2_battle.mml'>Source</a></td>
@@ -127,7 +152,7 @@ table {
 <td>bof2_battle2</td>
 <td>Breath of Fire II</td>
 <td>Dying Corpse</td>
-<td>NYI</td>
+<td>1:23</td>
 <td>Yuko Takehara</td>
 <td>emberling</td>
 <td><a href='bof2_battle2.spc' id='bof2_battle2'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/bof2_battle2.mml'>Source</a></td>
@@ -137,7 +162,7 @@ table {
 <td>bof2_evrai</td>
 <td>Breath of Fire II</td>
 <td>God of Decadence</td>
-<td>NYI</td>
+<td>1:39</td>
 <td>Yuko Takehara</td>
 <td>Rushlight</td>
 <td><a href='bof2_evrai.spc' id='bof2_evrai'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/bof2_evrai.mml'>Source</a></td>
@@ -147,7 +172,7 @@ table {
 <td>bof2_unspoken</td>
 <td>Breath of Fire II</td>
 <td>Left Unspoken</td>
-<td>NYI</td>
+<td>2:14</td>
 <td>Yuko Takehara</td>
 <td>Rushlight</td>
 <td><a href='bof2_unspoken.spc' id='bof2_unspoken'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/bof2_unspoken.mml'>Source</a></td>
@@ -157,7 +182,7 @@ table {
 <td>cc_arni</td>
 <td>Chrono Cross</td>
 <td>Arni (Home World)</td>
-<td>NYI</td>
+<td>3:17</td>
 <td>Yasunori Mitsuda</td>
 <td>Gi Nattak & emberling</td>
 <td><a href='cc_arni.spc' id='cc_arni'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/cc_arni.mml'>Source</a></td>
@@ -167,7 +192,7 @@ table {
 <td>cc_deadsea</td>
 <td>Chrono Cross</td>
 <td>The Dead Sea -Tower of Geddon-</td>
-<td>NYI</td>
+<td>2:54</td>
 <td>Yasunori Mitsuda</td>
 <td>Rushlight</td>
 <td><a href='cc_deadsea.spc' id='cc_deadsea'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/cc_deadsea.mml'>Source</a></td>
@@ -177,7 +202,7 @@ table {
 <td>cc_dragonia</td>
 <td>Chrono Cross</td>
 <td>Ancient Dragon's Fort</td>
-<td>NYI</td>
+<td>3:57</td>
 <td>Yasunori Mitsuda</td>
 <td>emberling</td>
 <td><a href='cc_dragonia.spc' id='cc_dragonia'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/cc_dragonia.mml'>Source</a></td>
@@ -187,7 +212,7 @@ table {
 <td>cc_eden</td>
 <td>Chrono Cross</td>
 <td>The Sea of Eden</td>
-<td>NYI</td>
+<td>2:31</td>
 <td>Yasunori Mitsuda</td>
 <td>Rushlight</td>
 <td><a href='cc_eden.spc' id='cc_eden'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/cc_eden.mml'>Source</a></td>
@@ -197,7 +222,7 @@ table {
 <td>cc_final</td>
 <td>Chrono Cross</td>
 <td>Dragon God</td>
-<td>NYI</td>
+<td>2:55</td>
 <td>Yasunori Mitsuda</td>
 <td>Rushlight</td>
 <td><a href='cc_final.spc' id='cc_final'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/cc_final.mml'>Source</a></td>
@@ -207,7 +232,7 @@ table {
 <td>cc_hydra</td>
 <td>Chrono Cross</td>
 <td>Hydra Marshes</td>
-<td>NYI</td>
+<td>3:12</td>
 <td>Yasunori Mitsuda</td>
 <td>emberling</td>
 <td><a href='cc_hydra.spc' id='cc_hydra'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/cc_hydra.mml'>Source</a></td>
@@ -217,7 +242,7 @@ table {
 <td>cc_pyre</td>
 <td>Chrono Cross</td>
 <td>Mount Pyre</td>
-<td>NYI</td>
+<td>3:17</td>
 <td>Yasunori Mitsuda</td>
 <td>emberling</td>
 <td><a href='cc_pyre.spc' id='cc_pyre'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/cc_pyre.mml'>Source</a></td>
@@ -227,7 +252,7 @@ table {
 <td>cc_world2</td>
 <td>Chrono Cross</td>
 <td>Shore of Dreams ~ Another World</td>
-<td>NYI</td>
+<td>2:12</td>
 <td>Yasunori Mitsuda</td>
 <td>emberling</td>
 <td><a href='cc_world2.spc' id='cc_world2'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/cc_world2.mml'>Source</a></td>
@@ -237,7 +262,7 @@ table {
 <td>crys_mountain</td>
 <td>Crystalis</td>
 <td>Inner Mountains</td>
-<td>NYI</td>
+<td>1:22</td>
 <td>Yoko Osaka</td>
 <td>emberling</td>
 <td><a href='crys_mountain.spc' id='crys_mountain'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/crys_mountain.mml'>Source</a></td>
@@ -247,7 +272,7 @@ table {
 <td>crys_tower</td>
 <td>Crystalis</td>
 <td>Tower in the Sky</td>
-<td>NYI</td>
+<td>1:41</td>
 <td>Yoko Osaka</td>
 <td>emberling</td>
 <td><a href='crys_tower.spc' id='crys_tower'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/crys_tower.mml'>Source</a></td>
@@ -257,7 +282,7 @@ table {
 <td>ct_600ad</td>
 <td>Chrono Trigger</td>
 <td>Wind Scene</td>
-<td>NYI</td>
+<td>3:09</td>
 <td>Yasunori Mitsuda</td>
 <td>emberling</td>
 <td><a href='ct_600ad.spc' id='ct_600ad'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/ct_600ad.mml'>Source</a></td>
@@ -267,7 +292,7 @@ table {
 <td>ct_ayla</td>
 <td>Chrono Trigger</td>
 <td>Ayla's Theme</td>
-<td>NYI</td>
+<td>1:14</td>
 <td>Yasunori Mitsuda</td>
 <td>emberling</td>
 <td><a href='ct_ayla.spc' id='ct_ayla'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/ct_ayla.mml'>Source</a></td>
@@ -277,7 +302,7 @@ table {
 <td>ct_battle</td>
 <td>Chrono Trigger</td>
 <td>Battle 1</td>
-<td>NYI</td>
+<td>1:36</td>
 <td>Yasunori Mitsuda</td>
 <td>emberling</td>
 <td><a href='ct_battle.spc' id='ct_battle'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/ct_battle.mml'>Source</a></td>
@@ -287,7 +312,7 @@ table {
 <td>ct_battle2</td>
 <td>Chrono Trigger</td>
 <td>Battle 2</td>
-<td>NYI</td>
+<td>1:18</td>
 <td>Yasunori Mitsuda</td>
 <td>emberling</td>
 <td><a href='ct_battle2.spc' id='ct_battle2'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/ct_battle2.mml'>Source</a></td>
@@ -297,7 +322,7 @@ table {
 <td>ct_bobonga</td>
 <td>Chrono Trigger</td>
 <td>Burn! Bobonga!</td>
-<td>NYI</td>
+<td>1:22</td>
 <td>Nobuo Uematsu</td>
 <td>emberling</td>
 <td><a href='ct_bobonga.spc' id='ct_bobonga'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/ct_bobonga.mml'>Source</a></td>
@@ -307,7 +332,7 @@ table {
 <td>ct_final</td>
 <td>Chrono Trigger</td>
 <td>Last Battle</td>
-<td>NYI</td>
+<td>3:26</td>
 <td>Yasunori Mitsuda</td>
 <td>emberling</td>
 <td><a href='ct_final.spc' id='ct_final'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/ct_final.mml'>Source</a></td>
@@ -317,7 +342,7 @@ table {
 <td>ct_forest</td>
 <td>Chrono Trigger</td>
 <td>Secret of the Forest</td>
-<td>NYI</td>
+<td>4:30</td>
 <td>Yasunori Mitsuda</td>
 <td>emberling</td>
 <td><a href='ct_forest.spc' id='ct_forest'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/ct_forest.mml'>Source</a></td>
@@ -327,7 +352,7 @@ table {
 <td>ct_frog</td>
 <td>Chrono Trigger</td>
 <td>Frog's Theme (with intro recreated by Redeemer665)</td>
-<td>NYI</td>
+<td>1:36</td>
 <td>Yasunori Mitsuda</td>
 <td>emberling</td>
 <td><a href='ct_frog.spc' id='ct_frog'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/ct_frog.mml'>Source</a></td>
@@ -337,7 +362,7 @@ table {
 <td>ct_keeper</td>
 <td>Chrono Trigger (beta)</td>
 <td>Keeper's Dome</td>
-<td>NYI</td>
+<td>1:27</td>
 <td>Yasunori Mitsuda</td>
 <td>emberling</td>
 <td><a href='ct_keeper.spc' id='ct_keeper'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/ct_keeper.mml'>Source</a></td>
@@ -347,17 +372,27 @@ table {
 <td>ct_lavos</td>
 <td>Chrono Trigger</td>
 <td>Lavos' Theme</td>
-<td>NYI</td>
+<td>2:47</td>
 <td>Yasunori Mitsuda</td>
 <td>HoxNorf</td>
 <td><a href='ct_lavos.spc' id='ct_lavos'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/ct_lavos.mml'>Source</a></td>
+</tr>
+<tr>
+<td><button type='button' onclick='playSpcFile("ct_lavos:full")'>PLAY</button></td>
+<td>ct_lavos:full</td>
+<td>Chrono Trigger</td>
+<td>Lavos' Theme</td>
+<td>4:56</td>
+<td>Yasunori Mitsuda</td>
+<td>HoxNorf</td>
+<td><a href='ct_lavos_full.spc' id='ct_lavos:full'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/ct_lavos.mml'>Source</a></td>
 </tr>
 <tr>
 <td><button type='button' onclick='playSpcFile("ct_night")'>PLAY</button></td>
 <td>ct_night</td>
 <td>Chrono Trigger</td>
 <td>At the Bottom of Night</td>
-<td>NYI</td>
+<td>2:20</td>
 <td>Yasunori Mitsuda</td>
 <td>emberling</td>
 <td><a href='ct_night.spc' id='ct_night'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/ct_night.mml'>Source</a></td>
@@ -367,7 +402,7 @@ table {
 <td>ct_revolution</td>
 <td>Chrono Trigger</td>
 <td>World Revolution</td>
-<td>NYI</td>
+<td>3:35</td>
 <td>Yasunori Mitsuda</td>
 <td>emberling</td>
 <td><a href='ct_revolution.spc' id='ct_revolution'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/ct_revolution.mml'>Source</a></td>
@@ -377,7 +412,7 @@ table {
 <td>ct_seal</td>
 <td>Chrono Trigger</td>
 <td>Sealed Door</td>
-<td>NYI</td>
+<td>2:29</td>
 <td>Nobuo Uematsu</td>
 <td>emberling</td>
 <td><a href='ct_seal.spc' id='ct_seal'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/ct_seal.mml'>Source</a></td>
@@ -387,7 +422,7 @@ table {
 <td>ct_sewer</td>
 <td>Chrono Trigger</td>
 <td>Underground Sewer</td>
-<td>NYI</td>
+<td>2:07</td>
 <td>Nobuo Uematsu</td>
 <td>emberling</td>
 <td><a href='ct_sewer.spc' id='ct_sewer'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/ct_sewer.mml'>Source</a></td>
@@ -397,7 +432,7 @@ table {
 <td>ct_silent</td>
 <td>Chrono Trigger</td>
 <td>Silent Light</td>
-<td>NYI</td>
+<td>2:15</td>
 <td>Nobuo Uematsu</td>
 <td>emberling</td>
 <td><a href='ct_silent.spc' id='ct_silent'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/ct_silent.mml'>Source</a></td>
@@ -407,7 +442,7 @@ table {
 <td>ct_singing</td>
 <td>Chrono Trigger</td>
 <td>Singing Mountain</td>
-<td>NYI</td>
+<td>1:55</td>
 <td>Yasunori Mitsuda</td>
 <td>Rushlight</td>
 <td><a href='ct_singing.spc' id='ct_singing'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/ct_singing.mml'>Source</a></td>
@@ -417,7 +452,7 @@ table {
 <td>ct_tension</td>
 <td>Chrono Trigger</td>
 <td>A Strange Happening</td>
-<td>NYI</td>
+<td>1:31</td>
 <td>Yasunori Mitsuda</td>
 <td>emberling</td>
 <td><a href='ct_tension.spc' id='ct_tension'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/ct_tension.mml'>Source</a></td>
@@ -427,7 +462,7 @@ table {
 <td>ct_theme</td>
 <td>Chrono Trigger</td>
 <td>Chrono Trigger</td>
-<td>NYI</td>
+<td>4:01</td>
 <td>Yasunori Mitsuda</td>
 <td>emberling</td>
 <td><a href='ct_theme.spc' id='ct_theme'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/ct_theme.mml'>Source</a></td>
@@ -437,7 +472,7 @@ table {
 <td>ct_trial</td>
 <td>Chrono Trigger</td>
 <td>Kingdom Trial</td>
-<td>NYI</td>
+<td>3:32</td>
 <td>Yasunori Mitsuda</td>
 <td>emberling</td>
 <td><a href='ct_trial.spc' id='ct_trial'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/ct_trial.mml'>Source</a></td>
@@ -447,7 +482,7 @@ table {
 <td>ct_undersea</td>
 <td>Chrono Trigger</td>
 <td>Undersea Palace</td>
-<td>NYI</td>
+<td>3:06</td>
 <td>Yasunori Mitsuda</td>
 <td>emberling</td>
 <td><a href='ct_undersea.spc' id='ct_undersea'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/ct_undersea.mml'>Source</a></td>
@@ -457,7 +492,7 @@ table {
 <td>cv4_chandeliers</td>
 <td>Super Castlevania IV</td>
 <td>Chandeliers</td>
-<td>NYI</td>
+<td>2:40</td>
 <td>Masanori Adachi, Taro Kudou</td>
 <td>emberling</td>
 <td><a href='cv4_chandeliers.spc' id='cv4_chandeliers'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/cv4_chandeliers.mml'>Source</a></td>
@@ -467,7 +502,7 @@ table {
 <td>dc2_garden</td>
 <td>Dark Cloud 2</td>
 <td>Flower Garden</td>
-<td>NYI</td>
+<td>2:45</td>
 <td>Tomohito Nishiura</td>
 <td>Cecil188</td>
 <td><a href='dc2_garden.spc' id='dc2_garden'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/dc2_garden.mml'>Source</a></td>
@@ -477,7 +512,7 @@ table {
 <td>dc2_palmbrinks</td>
 <td>Dark Cloud 2</td>
 <td>Palm Brinks</td>
-<td>NYI</td>
+<td>1:25</td>
 <td>Tomohito Nishiura</td>
 <td>Gi Nattak</td>
 <td><a href='dc2_palmbrinks.spc' id='dc2_palmbrinks'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/dc2_palmbrinks.mml'>Source</a></td>
@@ -487,7 +522,7 @@ table {
 <td>dkc_snow</td>
 <td>Donkey Kong Country</td>
 <td>Northern Hemispheres</td>
-<td>NYI</td>
+<td>4:05</td>
 <td>Eveline Fischer</td>
 <td>Rushlight</td>
 <td><a href='dkc_snow.spc' id='dkc_snow'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/dkc_snow.mml'>Source</a></td>
@@ -497,7 +532,7 @@ table {
 <td>doom2_doom</td>
 <td>Doom II</td>
 <td>Doom</td>
-<td>NYI</td>
+<td>8:36</td>
 <td>Bobby Prince</td>
 <td>emberling</td>
 <td><a href='doom2_doom.spc' id='doom2_doom'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/doom2_doom.mml'>Source</a></td>
@@ -507,7 +542,7 @@ table {
 <td>doom_e1m1</td>
 <td>Doom</td>
 <td>At Doom's Gate</td>
-<td>NYI</td>
+<td>3:13</td>
 <td>Bobby Prince</td>
 <td>emberling</td>
 <td><a href='doom_e1m1.spc' id='doom_e1m1'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/doom_e1m1.mml'>Source</a></td>
@@ -517,7 +552,7 @@ table {
 <td>ds4_dungeon</td>
 <td>Legacy of the Wizard (Dragon Slayer IV)</td>
 <td>All Together Now</td>
-<td>NYI</td>
+<td>1:11</td>
 <td>Yuzo Koshiro</td>
 <td>emberling</td>
 <td><a href='ds4_dungeon.spc' id='ds4_dungeon'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/ds4_dungeon.mml'>Source</a></td>
@@ -527,7 +562,7 @@ table {
 <td>ds4_lyll</td>
 <td>Legacy of the Wizard</td>
 <td>Theme of Lyll</td>
-<td>NYI</td>
+<td>1:19</td>
 <td>Yuzo Koshiro</td>
 <td>emberling</td>
 <td><a href='ds4_lyll.spc' id='ds4_lyll'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/ds4_lyll.mml'>Source</a></td>
@@ -537,7 +572,7 @@ table {
 <td>ebr_prayer</td>
 <td>Energy Breaker</td>
 <td>The Prayer Bells Do Not Toll</td>
-<td>NYI</td>
+<td>3:06</td>
 <td>Yukio Nakajima</td>
 <td>emberling</td>
 <td><a href='ebr_prayer.spc' id='ebr_prayer'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/ebr_prayer.mml'>Source</a></td>
@@ -547,7 +582,7 @@ table {
 <td>eo3_waves</td>
 <td>Etrian Odyssey 3</td>
 <td>The End of the Raging Waves</td>
-<td>NYI</td>
+<td>8:17</td>
 <td>Yuzo Koshiro</td>
 <td>emberling</td>
 <td><a href='eo3_waves.spc' id='eo3_waves'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/eo3_waves.mml'>Source</a></td>
@@ -557,7 +592,7 @@ table {
 <td>ff10_calm</td>
 <td>Final Fantasy X</td>
 <td>Calm Before the Storm</td>
-<td>NYI</td>
+<td>5:43</td>
 <td>Nobuo Uematsu</td>
 <td>emberling</td>
 <td><a href='ff10_calm.spc' id='ff10_calm'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/ff10_calm.mml'>Source</a></td>
@@ -567,7 +602,7 @@ table {
 <td>ff10_gagazet</td>
 <td>Final Fantasy X</td>
 <td>Servants of the Mountain</td>
-<td>NYI</td>
+<td>4:12</td>
 <td>Masashi Hamauzu</td>
 <td>emberling</td>
 <td><a href='ff10_gagazet.spc' id='ff10_gagazet'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/ff10_gagazet.mml'>Source</a></td>
@@ -577,7 +612,7 @@ table {
 <td>ff10_seymour</td>
 <td>Final Fantasy X</td>
 <td>Fight with Seymour</td>
-<td>NYI</td>
+<td>5:30</td>
 <td>Nobuo Uematsu</td>
 <td>emberling</td>
 <td><a href='ff10_seymour.spc' id='ff10_seymour'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/ff10_seymour.mml'>Source</a></td>
@@ -587,7 +622,7 @@ table {
 <td>ff10_via</td>
 <td>Final Fantasy X</td>
 <td>Via Purifico</td>
-<td>NYI</td>
+<td>2:12</td>
 <td>Nobuo Uematsu</td>
 <td>emberling</td>
 <td><a href='ff10_via.spc' id='ff10_via'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/ff10_via.mml'>Source</a></td>
@@ -597,7 +632,7 @@ table {
 <td>ff10_zanarkand</td>
 <td>Final Fantasy X</td>
 <td>Zanarkand</td>
-<td>NYI</td>
+<td>3:17</td>
 <td>Nobuo Uematsu</td>
 <td>emberling</td>
 <td><a href='ff10_zanarkand.spc' id='ff10_zanarkand'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/ff10_zanarkand.mml'>Source</a></td>
@@ -607,7 +642,7 @@ table {
 <td>ff12_crystal</td>
 <td>Final Fantasy XII</td>
 <td>To Walk Amongst Gods</td>
-<td>NYI</td>
+<td>3:17</td>
 <td>Hitoshi Sakimoto</td>
 <td>emberling</td>
 <td><a href='ff12_crystal.spc' id='ff12_crystal'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/ff12_crystal.mml'>Source</a></td>
@@ -617,7 +652,7 @@ table {
 <td>ff12_ozmone</td>
 <td>Final Fantasy XII</td>
 <td>Ozmone Plains</td>
-<td>NYI</td>
+<td>2:23</td>
 <td>Hitoshi Sakimoto</td>
 <td>emberling</td>
 <td><a href='ff12_ozmone.spc' id='ff12_ozmone'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/ff12_ozmone.mml'>Source</a></td>
@@ -627,7 +662,7 @@ table {
 <td>ff12_paramina</td>
 <td>Final Fantasy XII</td>
 <td>Lust for Power</td>
-<td>NYI</td>
+<td>3:07</td>
 <td>Hayato Matsuo</td>
 <td>emberling</td>
 <td><a href='ff12_paramina.spc' id='ff12_paramina'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/ff12_paramina.mml'>Source</a></td>
@@ -637,7 +672,7 @@ table {
 <td>ff14_azyslla</td>
 <td>Final Fantasy XIV Heavensward</td>
 <td>Order Yet Undeciphered</td>
-<td>NYI</td>
+<td>7:38</td>
 <td>Masayoshi Soken</td>
 <td>emberling</td>
 <td><a href='ff14_azyslla.spc' id='ff14_azyslla'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/ff14_azyslla.mml'>Source</a></td>
@@ -647,7 +682,7 @@ table {
 <td>ff14_battlem</td>
 <td>Final Fantasy X|V: A Realm Reborn</td>
 <td>The Land Bleeds</td>
-<td>NYI</td>
+<td>2:14</td>
 <td>Masayoshi Soken</td>
 <td>emberling</td>
 <td><a href='ff14_battlem.spc' id='ff14_battlem'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/ff14_battlem.mml'>Source</a></td>
@@ -657,7 +692,7 @@ table {
 <td>ff14_forthesky</td>
 <td>Final Fantasy XIV: Heavensward</td>
 <td>For the Sky</td>
-<td>NYI</td>
+<td>3:15</td>
 <td>Masayoshi Soken</td>
 <td>emberling</td>
 <td><a href='ff14_forthesky.spc' id='ff14_forthesky'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/ff14_forthesky.mml'>Source</a></td>
@@ -667,7 +702,7 @@ table {
 <td>ff14_labten</td>
 <td>Final Fantasy XIV: Endwalker</td>
 <td>From Below</td>
-<td>NYI</td>
+<td>1:43</td>
 <td>Masayoshi Soken</td>
 <td>emberling</td>
 <td><a href='ff14_labten.spc' id='ff14_labten'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/ff14_labten.mml'>Source</a></td>
@@ -677,7 +712,7 @@ table {
 <td>ff14_remnants</td>
 <td>Final Fantasy XIV: Endwalker</td>
 <td>Of Countless Stars</td>
-<td>NYI</td>
+<td>4:43</td>
 <td>Masayoshi Soken</td>
 <td>emberling</td>
 <td><a href='ff14_remnants.spc' id='ff14_remnants'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/ff14_remnants.mml'>Source</a></td>
@@ -687,7 +722,7 @@ table {
 <td>ff1_battle</td>
 <td>Final Fantasy</td>
 <td>Battle Scene</td>
-<td>NYI</td>
+<td>2:02</td>
 <td>Nobuo Uematsu</td>
 <td>emberling</td>
 <td><a href='ff1_battle.spc' id='ff1_battle'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/ff1_battle.mml'>Source</a></td>
@@ -697,7 +732,7 @@ table {
 <td>ff1_end</td>
 <td>Final Fantasy</td>
 <td>Ending Theme</td>
-<td>NYI</td>
+<td>2:50</td>
 <td>Nobuo Uematsu</td>
 <td>emberling</td>
 <td><a href='ff1_end.spc' id='ff1_end'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/ff1_end.mml'>Source</a></td>
@@ -707,7 +742,7 @@ table {
 <td>ff1_matoya</td>
 <td>Final Fantasy</td>
 <td>Matoya's Cave</td>
-<td>NYI</td>
+<td>2:16</td>
 <td>Nobuo Uematsu</td>
 <td>emberling</td>
 <td><a href='ff1_matoya.spc' id='ff1_matoya'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/ff1_matoya.mml'>Source</a></td>
@@ -717,7 +752,7 @@ table {
 <td>ff1_volcano</td>
 <td>Final Fantasy</td>
 <td>Gurgu Volcano</td>
-<td>NYI</td>
+<td>2:16</td>
 <td>Nobuo Uematsu</td>
 <td>emberling</td>
 <td><a href='ff1_volcano.spc' id='ff1_volcano'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/ff1_volcano.mml'>Source</a></td>
@@ -727,7 +762,7 @@ table {
 <td>ff1_volcano_psx</td>
 <td>Final Fantasy (PSX)</td>
 <td>Gurgu Volcano</td>
-<td>NYI</td>
+<td>2:21</td>
 <td>Nobuo Uematsu</td>
 <td>emberling</td>
 <td><a href='ff1_volcano_psx.spc' id='ff1_volcano_psx'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/ff1_volcano_psx.mml'>Source</a></td>
@@ -737,7 +772,7 @@ table {
 <td>ff1_world</td>
 <td>Final Fantasy</td>
 <td>Main Theme</td>
-<td>NYI</td>
+<td>2:10</td>
 <td>Nobuo Uematsu</td>
 <td>emberling</td>
 <td><a href='ff1_world.spc' id='ff1_world'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/ff1_world.mml'>Source</a></td>
@@ -747,7 +782,7 @@ table {
 <td>ff3_battle</td>
 <td>Final Fantasy III</td>
 <td>Battle 1</td>
-<td>NYI</td>
+<td>1:28</td>
 <td>Nobuo Uematsu</td>
 <td>emberling</td>
 <td><a href='ff3_battle.spc' id='ff3_battle'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/ff3_battle.mml'>Source</a></td>
@@ -757,7 +792,7 @@ table {
 <td>ff3_darkworld</td>
 <td>Final Fantasy III</td>
 <td>The Dark Crystals</td>
-<td>NYI</td>
+<td>1:41</td>
 <td>Nobuo Uematsu</td>
 <td>Gi Nattak</td>
 <td><a href='ff3_darkworld.spc' id='ff3_darkworld'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/ff3_darkworld.mml'>Source</a></td>
@@ -767,7 +802,7 @@ table {
 <td>ff3_hyne</td>
 <td>Final Fantasy III</td>
 <td>Hyne's Castle</td>
-<td>NYI</td>
+<td>3:22</td>
 <td>Nobuo Uematsu</td>
 <td>emberling</td>
 <td><a href='ff3_hyne.spc' id='ff3_hyne'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/ff3_hyne.mml'>Source</a></td>
@@ -777,7 +812,7 @@ table {
 <td>ff3_warrior</td>
 <td>Final Fantasy III</td>
 <td>Return of the Warrior</td>
-<td>NYI</td>
+<td>1:02</td>
 <td>Nobuo Uematsu</td>
 <td>emberling</td>
 <td><a href='ff3_warrior.spc' id='ff3_warrior'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/ff3_warrior.mml'>Source</a></td>
@@ -787,7 +822,7 @@ table {
 <td>ff4_cave</td>
 <td>Final Fantasy IV</td>
 <td>Into the Darkness</td>
-<td>NYI</td>
+<td>1:46</td>
 <td>Nobuo Uematsu</td>
 <td>emberling</td>
 <td><a href='ff4_cave.spc' id='ff4_cave'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/ff4_cave.mml'>Source</a></td>
@@ -797,7 +832,7 @@ table {
 <td>ff4_fiend</td>
 <td>Final Fantasy IV</td>
 <td>Battle With the Four Fiends</td>
-<td>NYI</td>
+<td>2:59</td>
 <td>Nobuo Uematsu</td>
 <td>emberling</td>
 <td><a href='ff4_fiend.spc' id='ff4_fiend'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/ff4_fiend.mml'>Source</a></td>
@@ -807,7 +842,7 @@ table {
 <td>ff4_golbez</td>
 <td>Final Fantasy IV</td>
 <td>Golbez, Clad in Darkness</td>
-<td>NYI</td>
+<td>1:53</td>
 <td>Nobuo Uematsu</td>
 <td>emberling</td>
 <td><a href='ff4_golbez.spc' id='ff4_golbez'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/ff4_golbez.mml'>Source</a></td>
@@ -817,7 +852,7 @@ table {
 <td>ff4_moon</td>
 <td>Final Fantasy IV</td>
 <td>Another Moon</td>
-<td>NYI</td>
+<td>16:44</td>
 <td>Nobuo Uematsu</td>
 <td>emberling</td>
 <td><a href='ff4_moon.spc' id='ff4_moon'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/ff4_moon.mml'>Source</a></td>
@@ -827,7 +862,7 @@ table {
 <td>ff4_mysidia</td>
 <td>Final Fantasy IV</td>
 <td>Mystic Mysidia</td>
-<td>NYI</td>
+<td>1:31</td>
 <td>Nobuo Uematsu</td>
 <td>emberling</td>
 <td><a href='ff4_mysidia.spc' id='ff4_mysidia'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/ff4_mysidia.mml'>Source</a></td>
@@ -837,7 +872,7 @@ table {
 <td>ff4_restless</td>
 <td>Final Fantasy IV ~Minimum Album~</td>
 <td>Restless Moments</td>
-<td>NYI</td>
+<td>1:35</td>
 <td>Nobuo Uematsu</td>
 <td>Gi Nattak</td>
 <td><a href='ff4_restless.spc' id='ff4_restless'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/ff4_restless.mml'>Source</a></td>
@@ -847,7 +882,7 @@ table {
 <td>ff4_rosa</td>
 <td>Final Fantasy IV</td>
 <td>Theme of Love</td>
-<td>NYI</td>
+<td>2:13</td>
 <td>Nobuo Uematsu</td>
 <td>emberling</td>
 <td><a href='ff4_rosa.spc' id='ff4_rosa'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/ff4_rosa.mml'>Source</a></td>
@@ -857,7 +892,7 @@ table {
 <td>ff4_world</td>
 <td>Final Fantasy IV</td>
 <td>Main Theme of FINAL FANTASY IV</td>
-<td>NYI</td>
+<td>2:38</td>
 <td>Nobuo Uematsu</td>
 <td>emberling</td>
 <td><a href='ff4_world.spc' id='ff4_world'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/ff4_world.mml'>Source</a></td>
@@ -867,7 +902,7 @@ table {
 <td>ff5_airship</td>
 <td>Final Fantasy V</td>
 <td>The Airship</td>
-<td>NYI</td>
+<td>1:53</td>
 <td>Nobuo Uematsu</td>
 <td>HoxNorf</td>
 <td><a href='ff5_airship.spc' id='ff5_airship'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/ff5_airship.mml'>Source</a></td>
@@ -877,7 +912,7 @@ table {
 <td>ff5_book</td>
 <td>Final Fantasy V</td>
 <td>Sealed Book</td>
-<td>NYI</td>
+<td>1:28</td>
 <td>Nobuo Uematsu</td>
 <td>emberling</td>
 <td><a href='ff5_book.spc' id='ff5_book'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/ff5_book.mml'>Source</a></td>
@@ -887,7 +922,7 @@ table {
 <td>ff5_boss</td>
 <td>Final Fantasy V</td>
 <td>Battle 2</td>
-<td>NYI</td>
+<td>2:20</td>
 <td>Nobuo Uematsu</td>
 <td>emberling</td>
 <td><a href='ff5_boss.spc' id='ff5_boss'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/ff5_boss.mml'>Source</a></td>
@@ -897,7 +932,7 @@ table {
 <td>ff5_decisive</td>
 <td>Final Fantasy V</td>
 <td>The Decisive Battle</td>
-<td>NYI</td>
+<td>4:10</td>
 <td>Nobuo Uematsu</td>
 <td>emberling</td>
 <td><a href='ff5_decisive.spc' id='ff5_decisive'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/ff5_decisive.mml'>Source</a></td>
@@ -907,7 +942,7 @@ table {
 <td>ff5_home</td>
 <td>Final Fantasy V</td>
 <td>Home, Sweet Home</td>
-<td>NYI</td>
+<td>2:24</td>
 <td>Nobuo Uematsu</td>
 <td>emberling</td>
 <td><a href='ff5_home.spc' id='ff5_home'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/ff5_home.mml'>Source</a></td>
@@ -917,7 +952,7 @@ table {
 <td>ff5_hurry</td>
 <td>Final Fantasy V</td>
 <td>Hurry! Hurry!</td>
-<td>NYI</td>
+<td>0:37</td>
 <td>Nobuo Uematsu</td>
 <td>emberling</td>
 <td><a href='ff5_hurry.spc' id='ff5_hurry'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/ff5_hurry.mml'>Source</a></td>
@@ -927,7 +962,7 @@ table {
 <td>ff5_mountain</td>
 <td>Final Fantasy V</td>
 <td>To the North Mountain</td>
-<td>NYI</td>
+<td>1:44</td>
 <td>Nobuo Uematsu</td>
 <td>emberling</td>
 <td><a href='ff5_mountain.spc' id='ff5_mountain'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/ff5_mountain.mml'>Source</a></td>
@@ -937,7 +972,7 @@ table {
 <td>ff5_pirates</td>
 <td>Final Fantasy V</td>
 <td>Pirates Ahoy</td>
-<td>NYI</td>
+<td>1:59</td>
 <td>Nobuo Uematsu</td>
 <td>emberling</td>
 <td><a href='ff5_pirates.spc' id='ff5_pirates'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/ff5_pirates.mml'>Source</a></td>
@@ -947,7 +982,7 @@ table {
 <td>ff5_ronka</td>
 <td>Final Fantasy V</td>
 <td>Musica Machina</td>
-<td>NYI</td>
+<td>8:01</td>
 <td>Nobuo Uematsu</td>
 <td>emberling</td>
 <td><a href='ff5_ronka.spc' id='ff5_ronka'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/ff5_ronka.mml'>Source</a></td>
@@ -957,7 +992,7 @@ table {
 <td>ff5_seal</td>
 <td>Final Fantasy V</td>
 <td>Sealed Away</td>
-<td>NYI</td>
+<td>1:42</td>
 <td>Nobuo Uematsu</td>
 <td>emberling</td>
 <td><a href='ff5_seal.spc' id='ff5_seal'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/ff5_seal.mml'>Source</a></td>
@@ -967,7 +1002,7 @@ table {
 <td>ff5_village</td>
 <td>Final Fantasy V</td>
 <td>Harvest</td>
-<td>NYI</td>
+<td>1:37</td>
 <td>Nobuo Uematsu</td>
 <td>emberling</td>
 <td><a href='ff5_village.spc' id='ff5_village'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/ff5_village.mml'>Source</a></td>
@@ -977,7 +1012,7 @@ table {
 <td>ff5_void2</td>
 <td>Final Fantasy V</td>
 <td>In Search of Light</td>
-<td>NYI</td>
+<td>1:28</td>
 <td>Nobuo Uematsu</td>
 <td>emberling</td>
 <td><a href='ff5_void2.spc' id='ff5_void2'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/ff5_void2.mml'>Source</a></td>
@@ -987,7 +1022,7 @@ table {
 <td>ff6_atma</td>
 <td>Final Fantasy VI</td>
 <td>Battle to the Death</td>
-<td>NYI</td>
+<td>2:20</td>
 <td>Nobuo Uematsu</td>
 <td>emberling</td>
 <td><a href='ff6_atma.spc' id='ff6_atma'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/ff6_atma.mml'>Source</a></td>
@@ -997,7 +1032,7 @@ table {
 <td>ff6_awakening</td>
 <td>Final Fantasy VI</td>
 <td>Awakening</td>
-<td>NYI</td>
+<td>1:47</td>
 <td>Nobuo Uematsu</td>
 <td>emberling</td>
 <td><a href='ff6_awakening.spc' id='ff6_awakening'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/ff6_awakening.mml'>Source</a></td>
@@ -1007,7 +1042,7 @@ table {
 <td>ff6_balance</td>
 <td>Final Fantasy VI</td>
 <td>Terra</td>
-<td>NYI</td>
+<td>3:41</td>
 <td>Nobuo Uematsu</td>
 <td>emberling</td>
 <td><a href='ff6_balance.spc' id='ff6_balance'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/ff6_balance.mml'>Source</a></td>
@@ -1017,7 +1052,7 @@ table {
 <td>ff6_battle</td>
 <td>Final Fantasy VI</td>
 <td>Battle Theme</td>
-<td>NYI</td>
+<td>1:53</td>
 <td>Nobuo Uematsu</td>
 <td>emberling</td>
 <td><a href='ff6_battle.spc' id='ff6_battle'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/ff6_battle.mml'>Source</a></td>
@@ -1027,7 +1062,7 @@ table {
 <td>ff6_blackjack</td>
 <td>Final Fantasy VI</td>
 <td>The Airship Blackjack</td>
-<td>NYI</td>
+<td>2:47</td>
 <td>Nobuo Uematsu</td>
 <td>emberling</td>
 <td><a href='ff6_blackjack.spc' id='ff6_blackjack'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/ff6_blackjack.mml'>Source</a></td>
@@ -1037,7 +1072,7 @@ table {
 <td>ff6_boss</td>
 <td>Final Fantasy VI</td>
 <td>The Decisive Battle</td>
-<td>NYI</td>
+<td>1:50</td>
 <td>Nobuo Uematsu</td>
 <td>emberling</td>
 <td><a href='ff6_boss.spc' id='ff6_boss'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/ff6_boss.mml'>Source</a></td>
@@ -1047,7 +1082,7 @@ table {
 <td>ff6_catastrophe</td>
 <td>Final Fantasy VI</td>
 <td>Catastrophe</td>
-<td>NYI</td>
+<td>1:56</td>
 <td>Nobuo Uematsu</td>
 <td>emberling</td>
 <td><a href='ff6_catastrophe.spc' id='ff6_catastrophe'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/ff6_catastrophe.mml'>Source</a></td>
@@ -1057,7 +1092,7 @@ table {
 <td>ff6_celes</td>
 <td>Final Fantasy VI</td>
 <td>Celes's Theme</td>
-<td>NYI</td>
+<td>2:45</td>
 <td>Nobuo Uematsu</td>
 <td>emberling</td>
 <td><a href='ff6_celes.spc' id='ff6_celes'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/ff6_celes.mml'>Source</a></td>
@@ -1067,7 +1102,7 @@ table {
 <td>ff6_chocobo</td>
 <td>Final Fantasy VI</td>
 <td>Techno de Chocobo</td>
-<td>NYI</td>
+<td>3:47</td>
 <td>Nobuo Uematsu</td>
 <td>emberling</td>
 <td><a href='ff6_chocobo.spc' id='ff6_chocobo'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/ff6_chocobo.mml'>Source</a></td>
@@ -1077,7 +1112,7 @@ table {
 <td>ff6_coin</td>
 <td>Final Fantasy VI</td>
 <td>Coin of Fate</td>
-<td>NYI</td>
+<td>3:03</td>
 <td>Nobuo Uematsu</td>
 <td>emberling</td>
 <td><a href='ff6_coin.spc' id='ff6_coin'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/ff6_coin.mml'>Source</a></td>
@@ -1087,7 +1122,7 @@ table {
 <td>ff6_cyan</td>
 <td>Final Fantasy VI</td>
 <td>Cyan's Theme</td>
-<td>NYI</td>
+<td>2:14</td>
 <td>Nobuo Uematsu</td>
 <td>emberling</td>
 <td><a href='ff6_cyan.spc' id='ff6_cyan'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/ff6_cyan.mml'>Source</a></td>
@@ -1097,7 +1132,7 @@ table {
 <td>ff6_daryl</td>
 <td>Final Fantasy VI</td>
 <td>Epitaph</td>
-<td>NYI</td>
+<td>2:36</td>
 <td>Nobuo Uematsu</td>
 <td>emberling</td>
 <td><a href='ff6_daryl.spc' id='ff6_daryl'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/ff6_daryl.mml'>Source</a></td>
@@ -1107,17 +1142,37 @@ table {
 <td>ff6_dmad</td>
 <td>Final Fantasy VI</td>
 <td>Dancing Mad (parts 1-3) - Orchestral</td>
-<td>NYI</td>
+<td>15:48</td>
 <td>Nobuo Uematsu</td>
 <td>emberling</td>
 <td><a href='ff6_dmad.spc' id='ff6_dmad'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/ff6_dmad.mml'>Source</a></td>
+</tr>
+<tr>
+<td><button type='button' onclick='playSpcFile("ff6_dmad:start2")'>PLAY</button></td>
+<td>ff6_dmad:start2</td>
+<td>Final Fantasy VI</td>
+<td>Dancing Mad (parts 1-3) - Orchestral</td>
+<td>13:06</td>
+<td>Nobuo Uematsu</td>
+<td>emberling</td>
+<td><a href='ff6_dmad_start2.spc' id='ff6_dmad:start2'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/ff6_dmad.mml'>Source</a></td>
+</tr>
+<tr>
+<td><button type='button' onclick='playSpcFile("ff6_dmad:start3")'>PLAY</button></td>
+<td>ff6_dmad:start3</td>
+<td>Final Fantasy VI</td>
+<td>Dancing Mad (parts 1-3) - Orchestral</td>
+<td>15:48</td>
+<td>Nobuo Uematsu</td>
+<td>emberling</td>
+<td><a href='ff6_dmad_start3.spc' id='ff6_dmad:start3'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/ff6_dmad.mml'>Source</a></td>
 </tr>
 <tr>
 <td><button type='button' onclick='playSpcFile("ff6_empire")'>PLAY</button></td>
 <td>ff6_empire</td>
 <td>Final Fantasy VI</td>
 <td>The Gestahl Empire</td>
-<td>NYI</td>
+<td>2:55</td>
 <td>Nobuo Uematsu</td>
 <td>emberling</td>
 <td><a href='ff6_empire.spc' id='ff6_empire'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/ff6_empire.mml'>Source</a></td>
@@ -1127,7 +1182,7 @@ table {
 <td>ff6_espers</td>
 <td>Final Fantasy VI</td>
 <td>Esper World</td>
-<td>NYI</td>
+<td>2:20</td>
 <td>Nobuo Uematsu</td>
 <td>emberling</td>
 <td><a href='ff6_espers.spc' id='ff6_espers'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/ff6_espers.mml'>Source</a></td>
@@ -1137,7 +1192,7 @@ table {
 <td>ff6_falcon</td>
 <td>Final Fantasy VI</td>
 <td>Searching for Friends</td>
-<td>NYI</td>
+<td>3:45</td>
 <td>Nobuo Uematsu</td>
 <td>emberling</td>
 <td><a href='ff6_falcon.spc' id='ff6_falcon'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/ff6_falcon.mml'>Source</a></td>
@@ -1147,7 +1202,7 @@ table {
 <td>ff6_fanatics</td>
 <td>Final Fantasy VI</td>
 <td>The Fanatics</td>
-<td>NYI</td>
+<td>1:22</td>
 <td>Nobuo Uematsu</td>
 <td>emberling</td>
 <td><a href='ff6_fanatics.spc' id='ff6_fanatics'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/ff6_fanatics.mml'>Source</a></td>
@@ -1157,7 +1212,7 @@ table {
 <td>ff6_figaro</td>
 <td>Final Fantasy VI</td>
 <td>Edgar and Sabin's Theme</td>
-<td>NYI</td>
+<td>2:25</td>
 <td>Nobuo Uematsu</td>
 <td>emberling</td>
 <td><a href='ff6_figaro.spc' id='ff6_figaro'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/ff6_figaro.mml'>Source</a></td>
@@ -1167,7 +1222,7 @@ table {
 <td>ff6_final</td>
 <td>Final Fantasy VI</td>
 <td>Dancing Mad (part 5)</td>
-<td>NYI</td>
+<td>5:17</td>
 <td>Nobuo Uematsu</td>
 <td>emberling</td>
 <td><a href='ff6_final.spc' id='ff6_final'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/ff6_final.mml'>Source</a></td>
@@ -1177,7 +1232,7 @@ table {
 <td>ff6_floating</td>
 <td>Final Fantasy VI</td>
 <td>New Continent</td>
-<td>NYI</td>
+<td>2:32</td>
 <td>Nobuo Uematsu</td>
 <td>emberling</td>
 <td><a href='ff6_floating.spc' id='ff6_floating'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/ff6_floating.mml'>Source</a></td>
@@ -1187,7 +1242,7 @@ table {
 <td>ff6_forest</td>
 <td>Final Fantasy VI</td>
 <td>Phantom Forest</td>
-<td>NYI</td>
+<td>3:11</td>
 <td>Nobuo Uematsu</td>
 <td>emberling</td>
 <td><a href='ff6_forest.spc' id='ff6_forest'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/ff6_forest.mml'>Source</a></td>
@@ -1197,7 +1252,7 @@ table {
 <td>ff6_gau</td>
 <td>Final Fantasy VI</td>
 <td>Gau's Theme</td>
-<td>NYI</td>
+<td>2:27</td>
 <td>Nobuo Uematsu</td>
 <td>emberling</td>
 <td><a href='ff6_gau.spc' id='ff6_gau'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/ff6_gau.mml'>Source</a></td>
@@ -1207,7 +1262,7 @@ table {
 <td>ff6_gogo</td>
 <td>Final Fantasy VI</td>
 <td>Gogo's Theme</td>
-<td>NYI</td>
+<td>1:60</td>
 <td>Nobuo Uematsu</td>
 <td>emberling</td>
 <td><a href='ff6_gogo.spc' id='ff6_gogo'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/ff6_gogo.mml'>Source</a></td>
@@ -1217,7 +1272,7 @@ table {
 <td>ff6_grandfinale</td>
 <td>Final Fantasy VI</td>
 <td>Grand Finale?</td>
-<td>NYI</td>
+<td>2:58</td>
 <td>Nobuo Uematsu</td>
 <td>emberling</td>
 <td><a href='ff6_grandfinale.spc' id='ff6_grandfinale'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/ff6_grandfinale.mml'>Source</a></td>
@@ -1227,7 +1282,7 @@ table {
 <td>ff6_johnny</td>
 <td>Final Fantasy VI</td>
 <td>Johnny C. Bad</td>
-<td>NYI</td>
+<td>2:45</td>
 <td>Nobuo Uematsu</td>
 <td>emberling</td>
 <td><a href='ff6_johnny.spc' id='ff6_johnny'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/ff6_johnny.mml'>Source</a></td>
@@ -1237,7 +1292,7 @@ table {
 <td>ff6_kefka</td>
 <td>Final Fantasy VI</td>
 <td>Kefka</td>
-<td>NYI</td>
+<td>2:39</td>
 <td>Nobuo Uematsu</td>
 <td>emberling</td>
 <td><a href='ff6_kefka.spc' id='ff6_kefka'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/ff6_kefka.mml'>Source</a></td>
@@ -1247,7 +1302,7 @@ table {
 <td>ff6_ktower</td>
 <td>Final Fantasy VI</td>
 <td>Kefka's Tower</td>
-<td>NYI</td>
+<td>2:35</td>
 <td>Nobuo Uematsu</td>
 <td>emberling</td>
 <td><a href='ff6_ktower.spc' id='ff6_ktower'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/ff6_ktower.mml'>Source</a></td>
@@ -1257,7 +1312,7 @@ table {
 <td>ff6_locke</td>
 <td>Final Fantasy VI</td>
 <td>Locke's Theme</td>
-<td>NYI</td>
+<td>1:55</td>
 <td>Nobuo Uematsu</td>
 <td>emberling</td>
 <td><a href='ff6_locke.spc' id='ff6_locke'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/ff6_locke.mml'>Source</a></td>
@@ -1267,7 +1322,7 @@ table {
 <td>ff6_magitek</td>
 <td>Final Fantasy VI</td>
 <td>Devil's Lab</td>
-<td>NYI</td>
+<td>2:15</td>
 <td>Nobuo Uematsu</td>
 <td>emberling</td>
 <td><a href='ff6_magitek.spc' id='ff6_magitek'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/ff6_magitek.mml'>Source</a></td>
@@ -1277,7 +1332,7 @@ table {
 <td>ff6_martiallaw</td>
 <td>Final Fantasy VI</td>
 <td>Under Martial Law</td>
-<td>NYI</td>
+<td>2:18</td>
 <td>Nobuo Uematsu</td>
 <td>emberling</td>
 <td><a href='ff6_martiallaw.spc' id='ff6_martiallaw'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/ff6_martiallaw.mml'>Source</a></td>
@@ -1287,7 +1342,7 @@ table {
 <td>ff6_metamorphosis</td>
 <td>Final Fantasy VI</td>
 <td>Metamorphosis</td>
-<td>NYI</td>
+<td>1:18</td>
 <td>Nobuo Uematsu</td>
 <td>emberling</td>
 <td><a href='ff6_metamorphosis.spc' id='ff6_metamorphosis'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/ff6_metamorphosis.mml'>Source</a></td>
@@ -1297,7 +1352,7 @@ table {
 <td>ff6_moogles</td>
 <td>Final Fantasy VI</td>
 <td>Mog's Theme</td>
-<td>NYI</td>
+<td>1:41</td>
 <td>Nobuo Uematsu</td>
 <td>emberling</td>
 <td><a href='ff6_moogles.spc' id='ff6_moogles'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/ff6_moogles.mml'>Source</a></td>
@@ -1307,7 +1362,7 @@ table {
 <td>ff6_mountain</td>
 <td>Final Fantasy VI</td>
 <td>Mt. Koltz</td>
-<td>NYI</td>
+<td>2:23</td>
 <td>Nobuo Uematsu</td>
 <td>emberling</td>
 <td><a href='ff6_mountain.spc' id='ff6_mountain'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/ff6_mountain.mml'>Source</a></td>
@@ -1317,7 +1372,7 @@ table {
 <td>ff6_narshe</td>
 <td>Final Fantasy VI</td>
 <td>The Mines of Narshe</td>
-<td>NYI</td>
+<td>2:42</td>
 <td>Nobuo Uematsu</td>
 <td>emberling</td>
 <td><a href='ff6_narshe.spc' id='ff6_narshe'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/ff6_narshe.mml'>Source</a></td>
@@ -1327,7 +1382,7 @@ table {
 <td>ff6_omen3</td>
 <td>Final Fantasy VI</td>
 <td>Omen III</td>
-<td>NYI</td>
+<td>3:50</td>
 <td>Nobuo Uematsu</td>
 <td>emberling</td>
 <td><a href='ff6_omen3.spc' id='ff6_omen3'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/ff6_omen3.mml'>Source</a></td>
@@ -1337,7 +1392,7 @@ table {
 <td>ff6_owzer</td>
 <td>Final Fantasy VI</td>
 <td>The Magic House</td>
-<td>NYI</td>
+<td>2:21</td>
 <td>Nobuo Uematsu</td>
 <td>emberling</td>
 <td><a href='ff6_owzer.spc' id='ff6_owzer'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/ff6_owzer.mml'>Source</a></td>
@@ -1347,17 +1402,27 @@ table {
 <td>ff6_prelude</td>
 <td>Final Fantasy VI</td>
 <td>The Prelude</td>
-<td>NYI</td>
+<td>2:38</td>
 <td>Nobuo Uematsu</td>
 <td>emberling</td>
 <td><a href='ff6_prelude.spc' id='ff6_prelude'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/ff6_prelude.mml'>Source</a></td>
+</tr>
+<tr>
+<td><button type='button' onclick='playSpcFile("ff6_prelude:nointro")'>PLAY</button></td>
+<td>ff6_prelude:nointro</td>
+<td>Final Fantasy VI</td>
+<td>The Prelude</td>
+<td>1:47</td>
+<td>Nobuo Uematsu</td>
+<td>emberling</td>
+<td><a href='ff6_prelude_nointro.spc' id='ff6_prelude:nointro'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/ff6_prelude.mml'>Source</a></td>
 </tr>
 <tr>
 <td><button type='button' onclick='playSpcFile("ff6_rachel")'>PLAY</button></td>
 <td>ff6_rachel</td>
 <td>Final Fantasy VI</td>
 <td>Forever Rachel</td>
-<td>NYI</td>
+<td>2:41</td>
 <td>Nobuo Uematsu</td>
 <td>emberling</td>
 <td><a href='ff6_rachel.spc' id='ff6_rachel'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/ff6_rachel.mml'>Source</a></td>
@@ -1367,7 +1432,7 @@ table {
 <td>ff6_relm</td>
 <td>Final Fantasy VI</td>
 <td>Relm's Theme</td>
-<td>NYI</td>
+<td>2:23</td>
 <td>Nobuo Uematsu</td>
 <td>emberling</td>
 <td><a href='ff6_relm.spc' id='ff6_relm'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/ff6_relm.mml'>Source</a></td>
@@ -1377,7 +1442,7 @@ table {
 <td>ff6_returners</td>
 <td>Final Fantasy VI</td>
 <td>The Returners</td>
-<td>NYI</td>
+<td>2:31</td>
 <td>Nobuo Uematsu</td>
 <td>emberling</td>
 <td><a href='ff6_returners.spc' id='ff6_returners'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/ff6_returners.mml'>Source</a></td>
@@ -1387,7 +1452,7 @@ table {
 <td>ff6_ruin</td>
 <td>Final Fantasy VI</td>
 <td>Dark World</td>
-<td>NYI</td>
+<td>2:42</td>
 <td>Nobuo Uematsu</td>
 <td>emberling</td>
 <td><a href='ff6_ruin.spc' id='ff6_ruin'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/ff6_ruin.mml'>Source</a></td>
@@ -1397,7 +1462,7 @@ table {
 <td>ff6_ruintown</td>
 <td>Final Fantasy VI</td>
 <td>From That Day On...</td>
-<td>NYI</td>
+<td>2:02</td>
 <td>Nobuo Uematsu</td>
 <td>emberling</td>
 <td><a href='ff6_ruintown.spc' id='ff6_ruintown'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/ff6_ruintown.mml'>Source</a></td>
@@ -1407,7 +1472,7 @@ table {
 <td>ff6_serpent</td>
 <td>Final Fantasy VI</td>
 <td>The Serpent Trench</td>
-<td>NYI</td>
+<td>2:03</td>
 <td>Nobuo Uematsu</td>
 <td>emberling</td>
 <td><a href='ff6_serpent.spc' id='ff6_serpent'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/ff6_serpent.mml'>Source</a></td>
@@ -1417,7 +1482,7 @@ table {
 <td>ff6_setzer</td>
 <td>Final Fantasy VI</td>
 <td>Setzer's Theme</td>
-<td>NYI</td>
+<td>1:44</td>
 <td>Nobuo Uematsu</td>
 <td>emberling</td>
 <td><a href='ff6_setzer.spc' id='ff6_setzer'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/ff6_setzer.mml'>Source</a></td>
@@ -1427,7 +1492,7 @@ table {
 <td>ff6_shadow</td>
 <td>Final Fantasy VI</td>
 <td>Shadow's Theme</td>
-<td>NYI</td>
+<td>1:44</td>
 <td>Nobuo Uematsu</td>
 <td>emberling</td>
 <td><a href='ff6_shadow.spc' id='ff6_shadow'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/ff6_shadow.mml'>Source</a></td>
@@ -1437,7 +1502,7 @@ table {
 <td>ff6_spinach</td>
 <td>Final Fantasy VI</td>
 <td>Spinach Rag</td>
-<td>NYI</td>
+<td>2:05</td>
 <td>Nobuo Uematsu</td>
 <td>emberling</td>
 <td><a href='ff6_spinach.spc' id='ff6_spinach'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/ff6_spinach.mml'>Source</a></td>
@@ -1447,7 +1512,7 @@ table {
 <td>ff6_strago</td>
 <td>Final Fantasy VI</td>
 <td>Strago's Theme</td>
-<td>NYI</td>
+<td>2:05</td>
 <td>Nobuo Uematsu</td>
 <td>emberling</td>
 <td><a href='ff6_strago.spc' id='ff6_strago'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/ff6_strago.mml'>Source</a></td>
@@ -1457,7 +1522,7 @@ table {
 <td>ff6_town</td>
 <td>Final Fantasy VI</td>
 <td>Kids Run Through the City</td>
-<td>NYI</td>
+<td>2:33</td>
 <td>Nobuo Uematsu</td>
 <td>emberling</td>
 <td><a href='ff6_town.spc' id='ff6_town'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/ff6_town.mml'>Source</a></td>
@@ -1467,7 +1532,7 @@ table {
 <td>ff6_train</td>
 <td>Final Fantasy VI</td>
 <td>The Phantom Train</td>
-<td>NYI</td>
+<td>2:42</td>
 <td>Nobuo Uematsu</td>
 <td>emberling</td>
 <td><a href='ff6_train.spc' id='ff6_train'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/ff6_train.mml'>Source</a></td>
@@ -1477,7 +1542,7 @@ table {
 <td>ff6_troops</td>
 <td>Final Fantasy VI</td>
 <td>Troops March On</td>
-<td>NYI</td>
+<td>1:48</td>
 <td>Nobuo Uematsu</td>
 <td>emberling</td>
 <td><a href='ff6_troops.spc' id='ff6_troops'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/ff6_troops.mml'>Source</a></td>
@@ -1487,7 +1552,7 @@ table {
 <td>ff6_umaro</td>
 <td>Final Fantasy VI</td>
 <td>Umaro's Theme</td>
-<td>NYI</td>
+<td>1:37</td>
 <td>Nobuo Uematsu</td>
 <td>emberling</td>
 <td><a href='ff6_umaro.spc' id='ff6_umaro'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/ff6_umaro.mml'>Source</a></td>
@@ -1497,7 +1562,7 @@ table {
 <td>ff6_unforgiven</td>
 <td>Final Fantasy VI</td>
 <td>The Unforgiven</td>
-<td>NYI</td>
+<td>1:17</td>
 <td>Nobuo Uematsu</td>
 <td>emberling</td>
 <td><a href='ff6_unforgiven.spc' id='ff6_unforgiven'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/ff6_unforgiven.mml'>Source</a></td>
@@ -1507,7 +1572,7 @@ table {
 <td>ff6_veldt</td>
 <td>Final Fantasy VI</td>
 <td>The Veldt</td>
-<td>NYI</td>
+<td>2:15</td>
 <td>Nobuo Uematsu</td>
 <td>emberling</td>
 <td><a href='ff6_veldt.spc' id='ff6_veldt'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/ff6_veldt.mml'>Source</a></td>
@@ -1517,7 +1582,7 @@ table {
 <td>ff6_what</td>
 <td>Final Fantasy VI</td>
 <td>What?</td>
-<td>NYI</td>
+<td>1:13</td>
 <td>Nobuo Uematsu</td>
 <td>emberling</td>
 <td><a href='ff6_what.spc' id='ff6_what'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/ff6_what.mml'>Source</a></td>
@@ -1527,17 +1592,27 @@ table {
 <td>ff6_zozo</td>
 <td>Final Fantasy VI</td>
 <td>Slam Shuffle</td>
-<td>NYI</td>
+<td>2:06</td>
 <td>Nobuo Uematsu</td>
 <td>emberling</td>
 <td><a href='ff6_zozo.spc' id='ff6_zozo'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/ff6_zozo.mml'>Source</a></td>
+</tr>
+<tr>
+<td><button type='button' onclick='playSpcFile("ff6_zozo:orig")'>PLAY</button></td>
+<td>ff6_zozo:orig</td>
+<td>Final Fantasy VI</td>
+<td>Slam Shuffle</td>
+<td>2:06</td>
+<td>Nobuo Uematsu</td>
+<td>emberling</td>
+<td><a href='ff6_zozo_orig.spc' id='ff6_zozo:orig'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/ff6_zozo.mml'>Source</a></td>
 </tr>
 <tr>
 <td><button type='button' onclick='playSpcFile("ff7_aerith")'>PLAY</button></td>
 <td>ff7_aerith</td>
 <td>Final Fantasy VII</td>
 <td>Aerith's Theme</td>
-<td>NYI</td>
+<td>4:06</td>
 <td>Nobuo Uematsu</td>
 <td>emberling</td>
 <td><a href='ff7_aerith.spc' id='ff7_aerith'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/ff7_aerith.mml'>Source</a></td>
@@ -1547,7 +1622,7 @@ table {
 <td>ff7_battle</td>
 <td>Final Fantasy VII</td>
 <td>Let the Battles Begin!</td>
-<td>NYI</td>
+<td>2:30</td>
 <td>Nobuo Uematsu</td>
 <td>emberling</td>
 <td><a href='ff7_battle.spc' id='ff7_battle'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/ff7_battle.mml'>Source</a></td>
@@ -1557,7 +1632,7 @@ table {
 <td>ff7_battle_ff6</td>
 <td>Final Fantasy VII</td>
 <td>Let the Battles Begin! (FF6 arr.)</td>
-<td>NYI</td>
+<td>2:46</td>
 <td>Nobuo Uematsu</td>
 <td>emberling</td>
 <td><a href='ff7_battle_ff6.spc' id='ff7_battle_ff6'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/ff7_battle_ff6.mml'>Source</a></td>
@@ -1567,7 +1642,7 @@ table {
 <td>ff7_bothfeet</td>
 <td>Final Fantasy VII</td>
 <td>It's Hard to Stand on Both Feet!</td>
-<td>NYI</td>
+<td>3:07</td>
 <td>Nobuo Uematsu</td>
 <td>emberling</td>
 <td><a href='ff7_bothfeet.spc' id='ff7_bothfeet'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/ff7_bothfeet.mml'>Source</a></td>
@@ -1577,7 +1652,7 @@ table {
 <td>ff7_bronco</td>
 <td>Final Fantasy VII</td>
 <td>Steal the Tiny Bronco!</td>
-<td>NYI</td>
+<td>2:32</td>
 <td>Nobuo Uematsu</td>
 <td>emberling</td>
 <td><a href='ff7_bronco.spc' id='ff7_bronco'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/ff7_bronco.mml'>Source</a></td>
@@ -1587,7 +1662,7 @@ table {
 <td>ff7_corel</td>
 <td>Final Fantasy VII</td>
 <td>Mining Town</td>
-<td>NYI</td>
+<td>2:53</td>
 <td>Nobuo Uematsu</td>
 <td>emberling</td>
 <td><a href='ff7_corel.spc' id='ff7_corel'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/ff7_corel.mml'>Source</a></td>
@@ -1597,7 +1672,7 @@ table {
 <td>ff7_electric</td>
 <td>Final Fantasy VII</td>
 <td>Electric de Chocobo</td>
-<td>NYI</td>
+<td>3:54</td>
 <td>Nobuo Uematsu</td>
 <td>emberling</td>
 <td><a href='ff7_electric.spc' id='ff7_electric'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/ff7_electric.mml'>Source</a></td>
@@ -1607,7 +1682,7 @@ table {
 <td>ff7_gun</td>
 <td>Final Fantasy VII</td>
 <td>Shinra's Full-Scale Assault</td>
-<td>NYI</td>
+<td>2:48</td>
 <td>Nobuo Uematsu</td>
 <td>emberling</td>
 <td><a href='ff7_gun.spc' id='ff7_gun'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/ff7_gun.mml'>Source</a></td>
@@ -1617,7 +1692,7 @@ table {
 <td>ff7_hurry2</td>
 <td>Final Fantasy VII</td>
 <td>Hurry Faster!</td>
-<td>NYI</td>
+<td>2:44</td>
 <td>Nobuo Uematsu</td>
 <td>emberling</td>
 <td><a href='ff7_hurry2.spc' id='ff7_hurry2'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/ff7_hurry2.mml'>Source</a></td>
@@ -1627,7 +1702,7 @@ table {
 <td>ff7_jenova</td>
 <td>Final Fantasy VII</td>
 <td>J-E-N-O-V-A</td>
-<td>NYI</td>
+<td>2:20</td>
 <td>Nobuo Uematsu</td>
 <td>emberling</td>
 <td><a href='ff7_jenova.spc' id='ff7_jenova'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/ff7_jenova.mml'>Source</a></td>
@@ -1637,7 +1712,7 @@ table {
 <td>ff7_judgment</td>
 <td>Final Fantasy VII</td>
 <td>Judgment Day</td>
-<td>NYI</td>
+<td>3:51</td>
 <td>Nobuo Uematsu</td>
 <td>emberling</td>
 <td><a href='ff7_judgment.spc' id='ff7_judgment'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/ff7_judgment.mml'>Source</a></td>
@@ -1647,7 +1722,7 @@ table {
 <td>ff7_mako</td>
 <td>Final Fantasy VII</td>
 <td>Mako Reactor</td>
-<td>NYI</td>
+<td>3:11</td>
 <td>Nobuo Uematsu</td>
 <td>emberling</td>
 <td><a href='ff7_mako.spc' id='ff7_mako'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/ff7_mako.mml'>Source</a></td>
@@ -1657,7 +1732,7 @@ table {
 <td>ff7_rebirth</td>
 <td>Final Fantasy VII</td>
 <td>Birth of a God</td>
-<td>NYI</td>
+<td>4:01</td>
 <td>Nobuo Uematsu</td>
 <td>emberling</td>
 <td><a href='ff7_rebirth.spc' id='ff7_rebirth'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/ff7_rebirth.mml'>Source</a></td>
@@ -1667,7 +1742,7 @@ table {
 <td>ff7_sadbar</td>
 <td>Final Fantasy VII</td>
 <td>Mark of a Traitor</td>
-<td>NYI</td>
+<td>3:18</td>
 <td>Nobuo Uematsu</td>
 <td>emberling</td>
 <td><a href='ff7_sadbar.spc' id='ff7_sadbar'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/ff7_sadbar.mml'>Source</a></td>
@@ -1677,7 +1752,7 @@ table {
 <td>ff7_temple</td>
 <td>Final Fantasy VII</td>
 <td>Forested Temple</td>
-<td>NYI</td>
+<td>3:34</td>
 <td>Nobuo Uematsu</td>
 <td>Gi Nattak & emberling</td>
 <td><a href='ff7_temple.spc' id='ff7_temple'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/ff7_temple.mml'>Source</a></td>
@@ -1687,7 +1762,7 @@ table {
 <td>ff8_battle</td>
 <td>Final Fantasy VIII</td>
 <td>Don't Be Afraid</td>
-<td>NYI</td>
+<td>2:45</td>
 <td>Nobuo Uematsu</td>
 <td>emberling</td>
 <td><a href='ff8_battle.spc' id='ff8_battle'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/ff8_battle.mml'>Source</a></td>
@@ -1697,7 +1772,7 @@ table {
 <td>ff8_laguna</td>
 <td>Final Fantasy VIII</td>
 <td>The Man with the Machine Gun</td>
-<td>NYI</td>
+<td>2:53</td>
 <td>Nobuo Uematsu</td>
 <td>emberling</td>
 <td><a href='ff8_laguna.spc' id='ff8_laguna'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/ff8_laguna.mml'>Source</a></td>
@@ -1707,7 +1782,7 @@ table {
 <td>ff8_world</td>
 <td>Final Fantasy VIII</td>
 <td>Blue Fields</td>
-<td>NYI</td>
+<td>2:47</td>
 <td>Nobuo Uematsu</td>
 <td>emberling</td>
 <td><a href='ff8_world.spc' id='ff8_world'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/ff8_world.mml'>Source</a></td>
@@ -1717,7 +1792,7 @@ table {
 <td>ff9_battle</td>
 <td>Final Fantasy IX</td>
 <td>Battle 1</td>
-<td>NYI</td>
+<td>2:26</td>
 <td>Nobuo Uematsu</td>
 <td>emberling</td>
 <td><a href='ff9_battle.spc' id='ff9_battle'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/ff9_battle.mml'>Source</a></td>
@@ -1727,7 +1802,7 @@ table {
 <td>ff9_blackwaltz</td>
 <td>Final Fantasy IX</td>
 <td>The Black Waltz</td>
-<td>NYI</td>
+<td>1:26</td>
 <td>Nobuo Uematsu</td>
 <td>emberling</td>
 <td><a href='ff9_blackwaltz.spc' id='ff9_blackwaltz'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/ff9_blackwaltz.mml'>Source</a></td>
@@ -1737,7 +1812,7 @@ table {
 <td>ff9_boss</td>
 <td>Final Fantasy IX</td>
 <td>Battle 2</td>
-<td>NYI</td>
+<td>3:51</td>
 <td>Nobuo Uematsu</td>
 <td>emberling</td>
 <td><a href='ff9_boss.spc' id='ff9_boss'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/ff9_boss.mml'>Source</a></td>
@@ -1747,7 +1822,7 @@ table {
 <td>ff9_dragons</td>
 <td>Final Fantasy IX</td>
 <td>Assault of the Silver Dragons</td>
-<td>NYI</td>
+<td>3:25</td>
 <td>Nobuo Uematsu</td>
 <td>Rushlight</td>
 <td><a href='ff9_dragons.spc' id='ff9_dragons'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/ff9_dragons.mml'>Source</a></td>
@@ -1757,7 +1832,7 @@ table {
 <td>ff9_flamenco</td>
 <td>Final Fantasy IX</td>
 <td>Vamo' alla Flamenco</td>
-<td>NYI</td>
+<td>2:58</td>
 <td>Nobuo Uematsu</td>
 <td>emberling</td>
 <td><a href='ff9_flamenco.spc' id='ff9_flamenco'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/ff9_flamenco.mml'>Source</a></td>
@@ -1767,7 +1842,7 @@ table {
 <td>ff9_freya</td>
 <td>Final Fantasy IX</td>
 <td>Freya's Theme</td>
-<td>NYI</td>
+<td>5:25</td>
 <td>Nobuo Uematsu</td>
 <td>Rushlight</td>
 <td><a href='ff9_freya.spc' id='ff9_freya'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/ff9_freya.mml'>Source</a></td>
@@ -1777,7 +1852,7 @@ table {
 <td>ff9_gargan</td>
 <td>Final Fantasy IX</td>
 <td>Gargan Roo</td>
-<td>NYI</td>
+<td>1:33</td>
 <td>Nobuo Uematsu</td>
 <td>emberling</td>
 <td><a href='ff9_gargan.spc' id='ff9_gargan'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/ff9_gargan.mml'>Source</a></td>
@@ -1787,7 +1862,7 @@ table {
 <td>ff9_hunt</td>
 <td>Final Fantasy IX</td>
 <td>Festival of the Hunt</td>
-<td>NYI</td>
+<td>3:32</td>
 <td>Nobuo Uematsu</td>
 <td>emberling</td>
 <td><a href='ff9_hunt.spc' id='ff9_hunt'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/ff9_hunt.mml'>Source</a></td>
@@ -1797,7 +1872,7 @@ table {
 <td>ff9_notalone</td>
 <td>Final Fantasy IX</td>
 <td>You're Not Alone!</td>
-<td>NYI</td>
+<td>4:11</td>
 <td>Nobuo Uematsu</td>
 <td>Gi Nattak</td>
 <td><a href='ff9_notalone.spc' id='ff9_notalone'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/ff9_notalone.mml'>Source</a></td>
@@ -1807,7 +1882,7 @@ table {
 <td>ff9_siege</td>
 <td>Final Fantasy IX</td>
 <td>City Under Siege</td>
-<td>NYI</td>
+<td>2:09</td>
 <td>Nobuo Uematsu</td>
 <td>emberling</td>
 <td><a href='ff9_siege.spc' id='ff9_siege'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/ff9_siege.mml'>Source</a></td>
@@ -1817,7 +1892,7 @@ table {
 <td>ff9_treno</td>
 <td>Final Fantasy IX</td>
 <td>Dark City Treno</td>
-<td>NYI</td>
+<td>5:02</td>
 <td>Nobuo Uematsu</td>
 <td>emberling</td>
 <td><a href='ff9_treno.spc' id='ff9_treno'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/ff9_treno.mml'>Source</a></td>
@@ -1827,7 +1902,7 @@ table {
 <td>ff9_vivi</td>
 <td>Final Fantasy IX</td>
 <td>Vivi's Theme</td>
-<td>NYI</td>
+<td>2:57</td>
 <td>Nobuo Uematsu</td>
 <td>emberling</td>
 <td><a href='ff9_vivi.spc' id='ff9_vivi'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/ff9_vivi.mml'>Source</a></td>
@@ -1837,7 +1912,7 @@ table {
 <td>ffmq_boss</td>
 <td>Final Fantasy Mystic Quest</td>
 <td>Battle 2</td>
-<td>NYI</td>
+<td>1:37</td>
 <td>Ryuji Sasai</td>
 <td>emberling</td>
 <td><a href='ffmq_boss.spc' id='ffmq_boss'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/ffmq_boss.mml'>Source</a></td>
@@ -1847,7 +1922,7 @@ table {
 <td>ffmq_faeria</td>
 <td>Final Fantasy Mystic Quest</td>
 <td>City of Fire</td>
-<td>NYI</td>
+<td>1:51</td>
 <td>Yasuhiro Kawakami</td>
 <td>emberling</td>
 <td><a href='ffmq_faeria.spc' id='ffmq_faeria'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/ffmq_faeria.mml'>Source</a></td>
@@ -1857,7 +1932,7 @@ table {
 <td>ffmq_final</td>
 <td>Final Fantasy Mystic Quest</td>
 <td>Battle 3</td>
-<td>NYI</td>
+<td>2:01</td>
 <td>Ryuji Sasai</td>
 <td>emberling</td>
 <td><a href='ffmq_final.spc' id='ffmq_final'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/ffmq_final.mml'>Source</a></td>
@@ -1867,7 +1942,7 @@ table {
 <td>fft_antipyretic</td>
 <td>Final Fantasy Tactics</td>
 <td>Antipyretic</td>
-<td>NYI</td>
+<td>3:37</td>
 <td>Hitoshi Sakimoto</td>
 <td>Rushlight</td>
 <td><a href='fft_antipyretic.spc' id='fft_antipyretic'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/fft_antipyretic.mml'>Source</a></td>
@@ -1877,7 +1952,7 @@ table {
 <td>fft_data</td>
 <td>Final Fantasy Tactics</td>
 <td>Data Screen</td>
-<td>NYI</td>
+<td>1:33</td>
 <td>Hitoshi Sakimoto</td>
 <td>Rushlight</td>
 <td><a href='fft_data.spc' id='fft_data'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/fft_data.mml'>Source</a></td>
@@ -1887,7 +1962,7 @@ table {
 <td>fft_trisection</td>
 <td>Final Fantasy Tactics</td>
 <td>Trisection</td>
-<td>NYI</td>
+<td>2:25</td>
 <td>Hitoshi Sakimoto</td>
 <td>Rushlight</td>
 <td><a href='fft_trisection.spc' id='fft_trisection'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/fft_trisection.mml'>Source</a></td>
@@ -1897,7 +1972,7 @@ table {
 <td>fz_silence</td>
 <td>F-Zero</td>
 <td>Silence</td>
-<td>NYI</td>
+<td>1:22</td>
 <td>Yumiko Kanki</td>
 <td>emberling</td>
 <td><a href='fz_silence.spc' id='fz_silence'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/fz_silence.mml'>Source</a></td>
@@ -1907,7 +1982,7 @@ table {
 <td>fz_white1</td>
 <td>F-Zero</td>
 <td>White Land 1</td>
-<td>NYI</td>
+<td>1:43</td>
 <td>Yumiko Kanki</td>
 <td>emberling</td>
 <td><a href='fz_white1.spc' id='fz_white1'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/fz_white1.mml'>Source</a></td>
@@ -1917,17 +1992,27 @@ table {
 <td>garou_hotaru</td>
 <td>Garou: Mark of the Wolves</td>
 <td>Fullmoon - Heartful</td>
-<td>NYI</td>
+<td>2:16</td>
 <td>Akihiro Uchida, Masato Horiuchi, Yasuhiro Naka</td>
 <td>HoxNorf</td>
 <td><a href='garou_hotaru.spc' id='garou_hotaru'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/garou_hotaru.mml'>Source</a></td>
+</tr>
+<tr>
+<td><button type='button' onclick='playSpcFile("garou_hotaru:nobell")'>PLAY</button></td>
+<td>garou_hotaru:nobell</td>
+<td>Garou: Mark of the Wolves</td>
+<td>Fullmoon - Heartful</td>
+<td>2:13</td>
+<td>Akihiro Uchida, Masato Horiuchi, Yasuhiro Naka</td>
+<td>HoxNorf</td>
+<td><a href='garou_hotaru_nobell.spc' id='garou_hotaru:nobell'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/garou_hotaru.mml'>Source</a></td>
 </tr>
 <tr>
 <td><button type='button' onclick='playSpcFile("grad3_desert")'>PLAY</button></td>
 <td>grad3_desert</td>
 <td>Gradius III</td>
 <td>Sand Storm</td>
-<td>NYI</td>
+<td>1:46</td>
 <td>Seiichi Fukami</td>
 <td>emberling</td>
 <td><a href='grad3_desert.spc' id='grad3_desert'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/grad3_desert.mml'>Source</a></td>
@@ -1937,7 +2022,7 @@ table {
 <td>grad3_moai</td>
 <td>Gradius III</td>
 <td>Easter Stone</td>
-<td>NYI</td>
+<td>2:11</td>
 <td>S.Fukami, M.Higashino, M.Izumi</td>
 <td>emberling</td>
 <td><a href='grad3_moai.spc' id='grad3_moai'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/grad3_moai.mml'>Source</a></td>
@@ -1947,7 +2032,7 @@ table {
 <td>gs_venus</td>
 <td>Golden Sun</td>
 <td>Venus Lighthouse</td>
-<td>NYI</td>
+<td>2:50</td>
 <td>Motoi Sakuraba</td>
 <td>emberling</td>
 <td><a href='gs_venus.spc' id='gs_venus'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/gs_venus.mml'>Source</a></td>
@@ -1957,7 +2042,7 @@ table {
 <td>homm2_sorceress</td>
 <td>Heroes of Might and Magic II: The Succession Wars</td>
 <td>Sorceress Castle</td>
-<td>NYI</td>
+<td>8:17</td>
 <td>Paul Romero</td>
 <td>Rushlight</td>
 <td><a href='homm2_sorceress.spc' id='homm2_sorceress'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/homm2_sorceress.mml'>Source</a></td>
@@ -1967,7 +2052,7 @@ table {
 <td>iog_ankor</td>
 <td>Illusion of Gaia</td>
 <td>Unexplored Temple</td>
-<td>NYI</td>
+<td>3:41</td>
 <td>Yasuhiro Kawasaki</td>
 <td>Rushlight</td>
 <td><a href='iog_ankor.spc' id='iog_ankor'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/iog_ankor.mml'>Source</a></td>
@@ -1977,7 +2062,7 @@ table {
 <td>iog_larai</td>
 <td>Illusion of Gaia</td>
 <td>Awakening the Wind</td>
-<td>NYI</td>
+<td>5:32</td>
 <td>Yasuhiro Kawasaki</td>
 <td>emberling</td>
 <td><a href='iog_larai.spc' id='iog_larai'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/iog_larai.mml'>Source</a></td>
@@ -1987,17 +2072,27 @@ table {
 <td>iog_village</td>
 <td>Illusion of Gaia</td>
 <td>Blessing of Nature</td>
-<td>NYI</td>
+<td>3:03</td>
 <td>Yasuhiro Kawasaki</td>
 <td>Rushlight</td>
 <td><a href='iog_village.spc' id='iog_village'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/iog_village.mml'>Source</a></td>
+</tr>
+<tr>
+<td><button type='button' onclick='playSpcFile("iog_village:nobird")'>PLAY</button></td>
+<td>iog_village:nobird</td>
+<td>Illusion of Gaia</td>
+<td>Blessing of Nature</td>
+<td>3:03</td>
+<td>Yasuhiro Kawasaki</td>
+<td>Rushlight</td>
+<td><a href='iog_village_nobird.spc' id='iog_village:nobird'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/iog_village.mml'>Source</a></td>
 </tr>
 <tr>
 <td><button type='button' onclick='playSpcFile("lal_boss")'>PLAY</button></td>
 <td>lal_boss</td>
 <td>Live A Live</td>
 <td>Megalomania</td>
-<td>NYI</td>
+<td>5:52</td>
 <td>Yoko Shimomura</td>
 <td>emberling</td>
 <td><a href='lal_boss.spc' id='lal_boss'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/lal_boss.mml'>Source</a></td>
@@ -2007,7 +2102,7 @@ table {
 <td>lal_labyrinth</td>
 <td>Live A Live</td>
 <td>Silent Labyrinth</td>
-<td>NYI</td>
+<td>2:40</td>
 <td>Yoko Shimomura</td>
 <td>emberling</td>
 <td><a href='lal_labyrinth.spc' id='lal_labyrinth'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/lal_labyrinth.mml'>Source</a></td>
@@ -2017,7 +2112,7 @@ table {
 <td>lal_pogo</td>
 <td>Live A Live</td>
 <td>Native Life</td>
-<td>NYI</td>
+<td>2:16</td>
 <td>Yoko Shimomura</td>
 <td>emberling</td>
 <td><a href='lal_pogo.spc' id='lal_pogo'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/lal_pogo.mml'>Source</a></td>
@@ -2027,7 +2122,7 @@ table {
 <td>lotr_aragorn</td>
 <td>The Two Towers (1992 DOS)</td>
 <td>Aragorn BGM</td>
-<td>NYI</td>
+<td>4:04</td>
 <td>Charles Deenen</td>
 <td>emberling</td>
 <td><a href='lotr_aragorn.spc' id='lotr_aragorn'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/lotr_aragorn.mml'>Source</a></td>
@@ -2037,7 +2132,7 @@ table {
 <td>lotr_hobbits</td>
 <td>The Two Towers (1992 DOS)</td>
 <td>Merry BGM</td>
-<td>NYI</td>
+<td>3:52</td>
 <td>Charles Deenen</td>
 <td>emberling</td>
 <td><a href='lotr_hobbits.spc' id='lotr_hobbits'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/lotr_hobbits.mml'>Source</a></td>
@@ -2047,7 +2142,7 @@ table {
 <td>lu1_parting</td>
 <td>Lufia and the Fortress of Doom</td>
 <td>Parting</td>
-<td>NYI</td>
+<td>2:29</td>
 <td>Yasunori Shiono</td>
 <td>emberling</td>
 <td><a href='lu1_parting.spc' id='lu1_parting'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/lu1_parting.mml'>Source</a></td>
@@ -2057,7 +2152,7 @@ table {
 <td>lu1_port</td>
 <td>Lufia and the Fortress of Doom</td>
 <td>Port City</td>
-<td>NYI</td>
+<td>1:58</td>
 <td>Yasunori Shiono</td>
 <td>emberling</td>
 <td><a href='lu1_port.spc' id='lu1_port'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/lu1_port.mml'>Source</a></td>
@@ -2067,7 +2162,7 @@ table {
 <td>lu1_prologue</td>
 <td>Lufia and the Fortress of Doom</td>
 <td>The Doom Island War</td>
-<td>NYI</td>
+<td>2:41</td>
 <td>Yasunori Shiono</td>
 <td>Rushlight</td>
 <td><a href='lu1_prologue.spc' id='lu1_prologue'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/lu1_prologue.mml'>Source</a></td>
@@ -2077,7 +2172,7 @@ table {
 <td>lu2_castle</td>
 <td>Lufia II: Rise of the Sinistrals</td>
 <td>Theme of Castle</td>
-<td>NYI</td>
+<td>1:46</td>
 <td>Yasunori Shiono</td>
 <td>Rushlight</td>
 <td><a href='lu2_castle.spc' id='lu2_castle'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/lu2_castle.mml'>Source</a></td>
@@ -2087,7 +2182,7 @@ table {
 <td>lu2_fortress</td>
 <td>Lufia II: Rise of the Sinistrals</td>
 <td>Final Battle // The Last Duel</td>
-<td>NYI</td>
+<td>2:28</td>
 <td>Yasunori Shiono</td>
 <td>Rushlight</td>
 <td><a href='lu2_fortress.spc' id='lu2_fortress'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/lu2_fortress.mml'>Source</a></td>
@@ -2097,7 +2192,7 @@ table {
 <td>lu2_iris</td>
 <td>Lufia II: Rise of the Sinistrals</td>
 <td>The Prophet // The Mystery Lady</td>
-<td>NYI</td>
+<td>1:44</td>
 <td>Yasunori Shiono</td>
 <td>Rushlight</td>
 <td><a href='lu2_iris.spc' id='lu2_iris'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/lu2_iris.mml'>Source</a></td>
@@ -2107,7 +2202,7 @@ table {
 <td>lu2_labyrinth</td>
 <td>Lufia II: Rise of the Sinistrals</td>
 <td>Labyrinth</td>
-<td>NYI</td>
+<td>2:24</td>
 <td>Yasunori Shiono</td>
 <td>Rushlight</td>
 <td><a href='lu2_labyrinth.spc' id='lu2_labyrinth'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/lu2_labyrinth.mml'>Source</a></td>
@@ -2117,7 +2212,7 @@ table {
 <td>lu2_parting</td>
 <td>Lufia II: Rise of the Sinistrals</td>
 <td>The Sorrow of Parting</td>
-<td>NYI</td>
+<td>2:07</td>
 <td>Yasunori Shiono</td>
 <td>Rushlight</td>
 <td><a href='lu2_parting.spc' id='lu2_parting'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/lu2_parting.mml'>Source</a></td>
@@ -2125,9 +2220,9 @@ table {
 <tr>
 <td><button type='button' onclick='playSpcFile("lu2_peace")'>PLAY</button></td>
 <td>lu2_peace</td>
-<td>Lufia II: Rise of the Sininstrals</td>
+<td>Lufia II: Rise of the Sinistrals</td>
 <td>Serenity (Ending Motif)</td>
-<td>NYI</td>
+<td>3:33</td>
 <td>Yasunori Shiono</td>
 <td>emberling</td>
 <td><a href='lu2_peace.spc' id='lu2_peace'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/lu2_peace.mml'>Source</a></td>
@@ -2137,7 +2232,7 @@ table {
 <td>lu2_port</td>
 <td>Lufia II: Rise of the Sinistrals</td>
 <td>Port City</td>
-<td>NYI</td>
+<td>1:58</td>
 <td>Yasunori Shiono</td>
 <td>emberling</td>
 <td><a href='lu2_port.spc' id='lu2_port'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/lu2_port.mml'>Source</a></td>
@@ -2147,7 +2242,7 @@ table {
 <td>lu2_priphea</td>
 <td>Lufia II: Rise of the Sinistrals</td>
 <td>Priphea Flowers (Lufia's Theme)</td>
-<td>NYI</td>
+<td>3:42</td>
 <td>Yasunori Shiono</td>
 <td>emberling</td>
 <td><a href='lu2_priphea.spc' id='lu2_priphea'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/lu2_priphea.mml'>Source</a></td>
@@ -2157,7 +2252,7 @@ table {
 <td>lu2_savior</td>
 <td>Lufia II: Rise of the Sinistrals</td>
 <td>For the Savior</td>
-<td>NYI</td>
+<td>2:24</td>
 <td>Yasunori Shiono</td>
 <td>emberling</td>
 <td><a href='lu2_savior.spc' id='lu2_savior'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/lu2_savior.mml'>Source</a></td>
@@ -2167,7 +2262,7 @@ table {
 <td>lu2_submarine</td>
 <td>Lufia II: Rise of the Sinistrals</td>
 <td>Deep Blue // The Abysmal Depths of the Ocean</td>
-<td>NYI</td>
+<td>1:52</td>
 <td>Yasunori Shiono</td>
 <td>Rushlight</td>
 <td><a href='lu2_submarine.spc' id='lu2_submarine'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/lu2_submarine.mml'>Source</a></td>
@@ -2177,7 +2272,7 @@ table {
 <td>lu2_town</td>
 <td>Lufia II: Rise of the Sinistrals</td>
 <td>Theme of Town</td>
-<td>NYI</td>
+<td>2:58</td>
 <td>Yasunori Shiono</td>
 <td>Rushlight</td>
 <td><a href='lu2_town.spc' id='lu2_town'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/lu2_town.mml'>Source</a></td>
@@ -2187,7 +2282,7 @@ table {
 <td>lu2_turret</td>
 <td>Lufia II: Rise of the Sinistrals</td>
 <td>Watchtowers of the Seal // The Turret Forgotten</td>
-<td>NYI</td>
+<td>1:34</td>
 <td>Yasunori Shiono</td>
 <td>Rushlight</td>
 <td><a href='lu2_turret.spc' id='lu2_turret'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/lu2_turret.mml'>Source</a></td>
@@ -2197,7 +2292,7 @@ table {
 <td>met3_brain</td>
 <td>Super Metroid</td>
 <td>Mother Brain</td>
-<td>NYI</td>
+<td>2:14</td>
 <td>Minako Hamano</td>
 <td>emberling</td>
 <td><a href='met3_brain.spc' id='met3_brain'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/met3_brain.mml'>Source</a></td>
@@ -2207,7 +2302,7 @@ table {
 <td>met3_plants</td>
 <td>Super Metroid</td>
 <td>Brinstar - Plant Overgrowth Area</td>
-<td>NYI</td>
+<td>3:36</td>
 <td>Kenji Yamamoto</td>
 <td>emberling</td>
 <td><a href='met3_plants.spc' id='met3_plants'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/met3_plants.mml'>Source</a></td>
@@ -2217,7 +2312,7 @@ table {
 <td>mg64_menu</td>
 <td>Mario Golf 64</td>
 <td>Title/Main Menu</td>
-<td>NYI</td>
+<td>2:01</td>
 <td>Motoi Sakuraba</td>
 <td>HoxNorf</td>
 <td><a href='mg64_menu.spc' id='mg64_menu'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/mg64_menu.mml'>Source</a></td>
@@ -2227,7 +2322,7 @@ table {
 <td>mm2_metal</td>
 <td>Mega Man 2</td>
 <td>Metal Man Stage</td>
-<td>NYI</td>
+<td>2:38</td>
 <td>Takashi Tateishi (Ogeretsu Kun)</td>
 <td>emberling</td>
 <td><a href='mm2_metal.spc' id='mm2_metal'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/mm2_metal.mml'>Source</a></td>
@@ -2237,7 +2332,7 @@ table {
 <td>mmx3_seahorse</td>
 <td>Mega Man X3</td>
 <td>Toxic Seahorse</td>
-<td>NYI</td>
+<td>1:33</td>
 <td>Kinuyo Yamashita</td>
 <td>Rushlight</td>
 <td><a href='mmx3_seahorse.spc' id='mmx3_seahorse'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/mmx3_seahorse.mml'>Source</a></td>
@@ -2247,7 +2342,7 @@ table {
 <td>mmx3_zero</td>
 <td>Mega Man X3</td>
 <td>Zero</td>
-<td>NYI</td>
+<td>0:48</td>
 <td>Kinuyo Yamashita</td>
 <td>Rushlight</td>
 <td><a href='mmx3_zero.spc' id='mmx3_zero'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/mmx3_zero.mml'>Source</a></td>
@@ -2257,7 +2352,7 @@ table {
 <td>mother2_bus</td>
 <td>Earthbound</td>
 <td>Get on the Bus</td>
-<td>NYI</td>
+<td>1:34</td>
 <td>Keiichi Suzuki, Hirozaku Tanaka</td>
 <td>Rushlight</td>
 <td><a href='mother2_bus.spc' id='mother2_bus'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/mother2_bus.mml'>Source</a></td>
@@ -2267,7 +2362,7 @@ table {
 <td>ob_thunder</td>
 <td>Ogre Battle</td>
 <td>Thunder</td>
-<td>NYI</td>
+<td>2:09</td>
 <td>Hitoshi Sakimoto</td>
 <td>emberling</td>
 <td><a href='ob_thunder.spc' id='ob_thunder'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/ob_thunder.mml'>Source</a></td>
@@ -2277,7 +2372,7 @@ table {
 <td>omf_desert</td>
 <td>One Must Fall 2097</td>
 <td>ARENA4 (Desert)</td>
-<td>NYI</td>
+<td>2:18</td>
 <td>Kenny Chou</td>
 <td>emberling</td>
 <td><a href='omf_desert.spc' id='omf_desert'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/omf_desert.mml'>Source</a></td>
@@ -2287,7 +2382,7 @@ table {
 <td>ot_saintsbridge</td>
 <td>Octopath Traveler</td>
 <td>River of Life</td>
-<td>NYI</td>
+<td>3:23</td>
 <td>Yasunori Nishiki</td>
 <td>Cecil188</td>
 <td><a href='ot_saintsbridge.spc' id='ot_saintsbridge'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/ot_saintsbridge.mml'>Source</a></td>
@@ -2297,7 +2392,7 @@ table {
 <td>ot_stillsnow</td>
 <td>Octopath Traveler</td>
 <td>Town Veiled In White</td>
-<td>NYI</td>
+<td>2:55</td>
 <td>Yasunori Nishiki</td>
 <td>Cecil188</td>
 <td><a href='ot_stillsnow.spc' id='ot_stillsnow'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/ot_stillsnow.mml'>Source</a></td>
@@ -2307,7 +2402,7 @@ table {
 <td>ot_treasure</td>
 <td>Octopath Traveler</td>
 <td>For Treasure!</td>
-<td>NYI</td>
+<td>1:26</td>
 <td>Yasunori Nishiki</td>
 <td>emberling</td>
 <td><a href='ot_treasure.spc' id='ot_treasure'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/ot_treasure.mml'>Source</a></td>
@@ -2317,7 +2412,7 @@ table {
 <td>pw_cornered</td>
 <td>Phoenix Wright: Ace Attorney</td>
 <td>Pursuit ~ Cornered</td>
-<td>NYI</td>
+<td>1:34</td>
 <td>Masakazu Sugimori</td>
 <td>Cecil188</td>
 <td><a href='pw_cornered.spc' id='pw_cornered'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/pw_cornered.mml'>Source</a></td>
@@ -2327,7 +2422,7 @@ table {
 <td>ro_labyrinth</td>
 <td>Ragnarok Online</td>
 <td>Labyrinth</td>
-<td>NYI</td>
+<td>4:39</td>
 <td>soundTeMP</td>
 <td>Rushlight</td>
 <td><a href='ro_labyrinth.spc' id='ro_labyrinth'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/ro_labyrinth.mml'>Source</a></td>
@@ -2337,7 +2432,7 @@ table {
 <td>rs3_devil2</td>
 <td>Romancing SaGa 3</td>
 <td>Devil Lord Confrontation II</td>
-<td>NYI</td>
+<td>2:55</td>
 <td>Kenji Ito</td>
 <td>emberling</td>
 <td><a href='rs3_devil2.spc' id='rs3_devil2'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/rs3_devil2.mml'>Source</a></td>
@@ -2347,7 +2442,7 @@ table {
 <td>rs3_underwater</td>
 <td>Romancing SaGa 3</td>
 <td>Underwater Palace</td>
-<td>NYI</td>
+<td>2:23</td>
 <td>Kenji Ito</td>
 <td>emberling</td>
 <td><a href='rs3_underwater.spc' id='rs3_underwater'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/rs3_underwater.mml'>Source</a></td>
@@ -2357,7 +2452,7 @@ table {
 <td>rtrek_world</td>
 <td>Robotrek</td>
 <td>The World of Quintenix</td>
-<td>NYI</td>
+<td>1:47</td>
 <td>Ayako Yoda</td>
 <td>Rushlight</td>
 <td><a href='rtrek_world.spc' id='rtrek_world'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/rtrek_world.mml'>Source</a></td>
@@ -2367,7 +2462,7 @@ table {
 <td>saga3_ruins</td>
 <td>Final Fantasy Legend III (SaGa 3)</td>
 <td>Holy Ruins</td>
-<td>NYI</td>
+<td>2:01</td>
 <td>Ryuji Sasai</td>
 <td>Rushlight</td>
 <td><a href='saga3_ruins.spc' id='saga3_ruins'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/saga3_ruins.mml'>Source</a></td>
@@ -2377,7 +2472,7 @@ table {
 <td>sd1_boss</td>
 <td>Seiken Densetsu</td>
 <td>Battle 1 ~Believe in Victory~</td>
-<td>NYI</td>
+<td>3:11</td>
 <td>Kenji Ito</td>
 <td>emberling</td>
 <td><a href='sd1_boss.spc' id='sd1_boss'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/sd1_boss.mml'>Source</a></td>
@@ -2387,7 +2482,7 @@ table {
 <td>sd1s_courage</td>
 <td>Sword of Mana</td>
 <td>Battle 2 ~Touched by Courage and Pride~</td>
-<td>NYI</td>
+<td>1:45</td>
 <td>Kenji Ito</td>
 <td>emberling</td>
 <td><a href='sd1s_courage.spc' id='sd1s_courage'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/sd1s_courage.mml'>Source</a></td>
@@ -2397,7 +2492,7 @@ table {
 <td>sd2_dwarf</td>
 <td>Secret of Mana</td>
 <td>It Happened Late One Evening</td>
-<td>NYI</td>
+<td>0:58</td>
 <td>Hiroki Kikuta</td>
 <td>emberling</td>
 <td><a href='sd2_dwarf.spc' id='sd2_dwarf'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/sd2_dwarf.mml'>Source</a></td>
@@ -2407,7 +2502,7 @@ table {
 <td>sd2_field</td>
 <td>Secret of Mana</td>
 <td>Into the Thick of It</td>
-<td>NYI</td>
+<td>3:22</td>
 <td>Hiroki Kikuta</td>
 <td>emberling</td>
 <td><a href='sd2_field.spc' id='sd2_field'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/sd2_field.mml'>Source</a></td>
@@ -2417,7 +2512,7 @@ table {
 <td>sd2_final</td>
 <td>Secret of Mana</td>
 <td>Meridian Dance</td>
-<td>NYI</td>
+<td>3:31</td>
 <td>Hiroki Kikuta</td>
 <td>emberling</td>
 <td><a href='sd2_final.spc' id='sd2_final'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/sd2_final.mml'>Source</a></td>
@@ -2427,7 +2522,7 @@ table {
 <td>sd2_flammie</td>
 <td>Secret of Mana</td>
 <td>Flight into the Unknown</td>
-<td>NYI</td>
+<td>2:38</td>
 <td>Hiroki Kikuta</td>
 <td>emberling</td>
 <td><a href='sd2_flammie.spc' id='sd2_flammie'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/sd2_flammie.mml'>Source</a></td>
@@ -2437,7 +2532,7 @@ table {
 <td>sd2_fortress</td>
 <td>Secret of Mana</td>
 <td>Leave Time for Love</td>
-<td>NYI</td>
+<td>2:06</td>
 <td>Hiroki Kikuta</td>
 <td>emberling</td>
 <td><a href='sd2_fortress.spc' id='sd2_fortress'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/sd2_fortress.mml'>Source</a></td>
@@ -2447,7 +2542,7 @@ table {
 <td>sd2_matango</td>
 <td>Secret of Mana</td>
 <td>Dancing Beasts</td>
-<td>NYI</td>
+<td>2:18</td>
 <td>Hiroki Kikuta</td>
 <td>emberling</td>
 <td><a href='sd2_matango.spc' id='sd2_matango'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/sd2_matango.mml'>Source</a></td>
@@ -2457,7 +2552,7 @@ table {
 <td>sd2_steel</td>
 <td>Secret of Mana</td>
 <td>Steel and Snare</td>
-<td>NYI</td>
+<td>3:05</td>
 <td>Hiroki Kikuta</td>
 <td>emberling</td>
 <td><a href='sd2_steel.spc' id='sd2_steel'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/sd2_steel.mml'>Source</a></td>
@@ -2467,7 +2562,7 @@ table {
 <td>sd2_thanatos</td>
 <td>Secret of Mana</td>
 <td>Ceremony</td>
-<td>NYI</td>
+<td>1:40</td>
 <td>Hiroki Kikuta</td>
 <td>emberling</td>
 <td><a href='sd2_thanatos.spc' id='sd2_thanatos'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/sd2_thanatos.mml'>Source</a></td>
@@ -2477,7 +2572,7 @@ table {
 <td>sd3_blackmarket</td>
 <td>Trials of Mana</td>
 <td>Last Audience</td>
-<td>NYI</td>
+<td>3:56</td>
 <td>Hiroki Kikuta</td>
 <td>emberling</td>
 <td><a href='sd3_blackmarket.spc' id='sd3_blackmarket'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/sd3_blackmarket.mml'>Source</a></td>
@@ -2487,7 +2582,7 @@ table {
 <td>sd3_counterpoint</td>
 <td>Trials of Mana</td>
 <td>Weird Counterpoint</td>
-<td>NYI</td>
+<td>4:53</td>
 <td>Hiroki Kikuta</td>
 <td>emberling</td>
 <td><a href='sd3_counterpoint.spc' id='sd3_counterpoint'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/sd3_counterpoint.mml'>Source</a></td>
@@ -2497,7 +2592,7 @@ table {
 <td>sd3_faith</td>
 <td>Trials of Mana</td>
 <td>Faith Total Machine</td>
-<td>NYI</td>
+<td>2:41</td>
 <td>Hiroki Kikuta</td>
 <td>emberling</td>
 <td><a href='sd3_faith.spc' id='sd3_faith'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/sd3_faith.mml'>Source</a></td>
@@ -2507,7 +2602,7 @@ table {
 <td>sd3_final3</td>
 <td>Trials of Mana</td>
 <td>The Sacrifice, Part Three</td>
-<td>NYI</td>
+<td>7:42</td>
 <td>Hiroki Kikuta</td>
 <td>emberling</td>
 <td><a href='sd3_final3.spc' id='sd3_final3'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/sd3_final3.mml'>Source</a></td>
@@ -2517,7 +2612,7 @@ table {
 <td>sd3_flight</td>
 <td>Trials of Mana</td>
 <td>Can You Fly, Sister?</td>
-<td>NYI</td>
+<td>3:31</td>
 <td>Hiroki Kikuta</td>
 <td>emberling</td>
 <td><a href='sd3_flight.spc' id='sd3_flight'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/sd3_flight.mml'>Source</a></td>
@@ -2527,7 +2622,7 @@ table {
 <td>sd3_holyland</td>
 <td>Trials of Mana</td>
 <td>Decision Bell</td>
-<td>NYI</td>
+<td>3:11</td>
 <td>Hiroki Kikuta</td>
 <td>Rushlight</td>
 <td><a href='sd3_holyland.spc' id='sd3_holyland'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/sd3_holyland.mml'>Source</a></td>
@@ -2537,7 +2632,7 @@ table {
 <td>sd3_pray</td>
 <td>Trials of Mana</td>
 <td>Hope Isolation Pray</td>
-<td>NYI</td>
+<td>3:11</td>
 <td>Hiroki Kikuta</td>
 <td>emberling</td>
 <td><a href='sd3_pray.spc' id='sd3_pray'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/sd3_pray.mml'>Source</a></td>
@@ -2547,7 +2642,7 @@ table {
 <td>sd3_steel</td>
 <td>Trials of Mana</td>
 <td>Walls and Steels</td>
-<td>NYI</td>
+<td>2:51</td>
 <td>Hiroki Kikuta</td>
 <td>emberling</td>
 <td><a href='sd3_steel.spc' id='sd3_steel'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/sd3_steel.mml'>Source</a></td>
@@ -2557,7 +2652,7 @@ table {
 <td>sdlm_landscape</td>
 <td>Legend of Mana</td>
 <td>Picturesque Landscape</td>
-<td>NYI</td>
+<td>2:47</td>
 <td>Yoko Shimomura</td>
 <td>emberling</td>
 <td><a href='sdlm_landscape.spc' id='sdlm_landscape'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/sdlm_landscape.mml'>Source</a></td>
@@ -2567,7 +2662,7 @@ table {
 <td>sdlm_wind</td>
 <td>Legend of Mana</td>
 <td>Singing Wind, Journey's Path</td>
-<td>NYI</td>
+<td>2:05</td>
 <td>Yoko Shimomura</td>
 <td>emberling</td>
 <td><a href='sdlm_wind.spc' id='sdlm_wind'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/sdlm_wind.mml'>Source</a></td>
@@ -2577,7 +2672,7 @@ table {
 <td>sf2_balrog</td>
 <td>Street Fighter II</td>
 <td>Balrog</td>
-<td>NYI</td>
+<td>1:52</td>
 <td>Yoko Shimomura</td>
 <td>emberling</td>
 <td><a href='sf2_balrog.spc' id='sf2_balrog'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/sf2_balrog.mml'>Source</a></td>
@@ -2587,7 +2682,7 @@ table {
 <td>smrpg_road2</td>
 <td>Super Mario RPG</td>
 <td>Still, The Road Is Full of Dangers</td>
-<td>NYI</td>
+<td>1:34</td>
 <td>Yoko Shimomura</td>
 <td>HoxNorf</td>
 <td><a href='smrpg_road2.spc' id='smrpg_road2'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/smrpg_road2.mml'>Source</a></td>
@@ -2597,27 +2692,57 @@ table {
 <td>so2_world1</td>
 <td>Star Ocean: The Second Story</td>
 <td>Field of Expel</td>
-<td>NYI</td>
+<td>8:27</td>
 <td>Motoi Sakuraba</td>
 <td>emberling</td>
 <td><a href='so2_world1.spc' id='so2_world1'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/so2_world1.mml'>Source</a></td>
+</tr>
+<tr>
+<td><button type='button' onclick='playSpcFile("so2_world1:a")'>PLAY</button></td>
+<td>so2_world1:a</td>
+<td>Star Ocean: The Second Story</td>
+<td>Field of Expel</td>
+<td>4:54</td>
+<td>Motoi Sakuraba</td>
+<td>emberling</td>
+<td><a href='so2_world1_a.spc' id='so2_world1:a'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/so2_world1.mml'>Source</a></td>
+</tr>
+<tr>
+<td><button type='button' onclick='playSpcFile("so2_world1:b")'>PLAY</button></td>
+<td>so2_world1:b</td>
+<td>Star Ocean: The Second Story</td>
+<td>Field of Expel</td>
+<td>4:08</td>
+<td>Motoi Sakuraba</td>
+<td>emberling</td>
+<td><a href='so2_world1_b.spc' id='so2_world1:b'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/so2_world1.mml'>Source</a></td>
 </tr>
 <tr>
 <td><button type='button' onclick='playSpcFile("sots_boss")'>PLAY</button></td>
 <td>sots_boss</td>
 <td>Secret of the Stars</td>
 <td>Boss Battle</td>
-<td>NYI</td>
+<td>1:22</td>
 <td>Tukushi Sasaki</td>
 <td>Rushlight</td>
 <td><a href='sots_boss.spc' id='sots_boss'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/sots_boss.mml'>Source</a></td>
+</tr>
+<tr>
+<td><button type='button' onclick='playSpcFile("sots_boss:nointro")'>PLAY</button></td>
+<td>sots_boss:nointro</td>
+<td>Secret of the Stars</td>
+<td>Boss Battle</td>
+<td>1:19</td>
+<td>Tukushi Sasaki</td>
+<td>Rushlight</td>
+<td><a href='sots_boss_nointro.spc' id='sots_boss:nointro'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/sots_boss.mml'>Source</a></td>
 </tr>
 <tr>
 <td><button type='button' onclick='playSpcFile("st_dungeon")'>PLAY</button></td>
 <td>st_dungeon</td>
 <td>StarTropics</td>
 <td>Dungeon</td>
-<td>NYI</td>
+<td>1:41</td>
 <td>Yoshio Hirai</td>
 <td>emberling</td>
 <td><a href='st_dungeon.spc' id='st_dungeon'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/st_dungeon.mml'>Source</a></td>
@@ -2627,7 +2752,7 @@ table {
 <td>sth1_spring</td>
 <td>Sonic the Hedgehog</td>
 <td>Spring Yard Zone</td>
-<td>NYI</td>
+<td>1:24</td>
 <td>Masato Nakamura</td>
 <td>emberling</td>
 <td><a href='sth1_spring.spc' id='sth1_spring'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/sth1_spring.mml'>Source</a></td>
@@ -2637,7 +2762,7 @@ table {
 <td>tn_darkworld</td>
 <td>Terranigma</td>
 <td>Departure</td>
-<td>NYI</td>
+<td>2:17</td>
 <td>Miyoko Kobayashi</td>
 <td>emberling</td>
 <td><a href='tn_darkworld.spc' id='tn_darkworld'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/tn_darkworld.mml'>Source</a></td>
@@ -2647,7 +2772,7 @@ table {
 <td>top_battle</td>
 <td>Tales of Phantasia</td>
 <td>Take Up the Cross</td>
-<td>NYI</td>
+<td>2:31</td>
 <td>Motoi Sakuraba, Shinji Tamura</td>
 <td>emberling</td>
 <td><a href='top_battle.spc' id='top_battle'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/top_battle.mml'>Source</a></td>
@@ -2657,7 +2782,7 @@ table {
 <td>top_boss</td>
 <td>Tales of Phantasia</td>
 <td>Overcome Difficulties</td>
-<td>NYI</td>
+<td>1:34</td>
 <td>Motoi Sakuraba, Shinji Tamura</td>
 <td>emberling</td>
 <td><a href='top_boss.spc' id='top_boss'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/top_boss.mml'>Source</a></td>
@@ -2667,7 +2792,7 @@ table {
 <td>top_morlia</td>
 <td>Tales of Phantasia</td>
 <td>Morlia Gallery</td>
-<td>NYI</td>
+<td>3:33</td>
 <td>Motoi Sakuraba, Shinji Tamura</td>
 <td>emberling</td>
 <td><a href='top_morlia.spc' id='top_morlia'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/top_morlia.mml'>Source</a></td>
@@ -2677,7 +2802,7 @@ table {
 <td>top_spirit</td>
 <td>Tales of Phantasia</td>
 <td>Fighting of the Spirit</td>
-<td>NYI</td>
+<td>3:05</td>
 <td>Shinji Tamura</td>
 <td>emberling</td>
 <td><a href='top_spirit.spc' id='top_spirit'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/top_spirit.mml'>Source</a></td>
@@ -2687,7 +2812,7 @@ table {
 <td>top_sylphs</td>
 <td>Tales of Phantasia</td>
 <td>Sylphs'</td>
-<td>NYI</td>
+<td>4:21</td>
 <td>Motoi Sakuraba, Shinji Tamura</td>
 <td>emberling</td>
 <td><a href='top_sylphs.spc' id='top_sylphs'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/top_sylphs.mml'>Source</a></td>
@@ -2697,7 +2822,7 @@ table {
 <td>top_world1</td>
 <td>Tales of Phantasia</td>
 <td>Raising a Curtain</td>
-<td>NYI</td>
+<td>4:18</td>
 <td>Motoi Sakuraba, Shinji Tamura</td>
 <td>emberling</td>
 <td><a href='top_world1.spc' id='top_world1'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/top_world1.mml'>Source</a></td>
@@ -2707,7 +2832,7 @@ table {
 <td>totr_aquarians</td>
 <td>Treasure of the Rudras</td>
 <td>The Aquarians</td>
-<td>NYI</td>
+<td>2:30</td>
 <td>Ryuji Sasai</td>
 <td>emberling</td>
 <td><a href='totr_aquarians.spc' id='totr_aquarians'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/totr_aquarians.mml'>Source</a></td>
@@ -2717,7 +2842,7 @@ table {
 <td>totr_battle</td>
 <td>Treasure of the Rudras</td>
 <td>Battle for the Fields</td>
-<td>NYI</td>
+<td>1:20</td>
 <td>Ryuji Sasai</td>
 <td>emberling</td>
 <td><a href='totr_battle.spc' id='totr_battle'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/totr_battle.mml'>Source</a></td>
@@ -2727,7 +2852,7 @@ table {
 <td>totr_downfall</td>
 <td>Treasure of the Rudras</td>
 <td>Downfall</td>
-<td>NYI</td>
+<td>2:29</td>
 <td>Ryuji Sasai</td>
 <td>emberling</td>
 <td><a href='totr_downfall.spc' id='totr_downfall'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/totr_downfall.mml'>Source</a></td>
@@ -2737,7 +2862,7 @@ table {
 <td>totr_mountain</td>
 <td>Treasure of the Rudras</td>
 <td>King of the Mountain</td>
-<td>NYI</td>
+<td>1:22</td>
 <td>Ryuji Sasai</td>
 <td>Rushlight</td>
 <td><a href='totr_mountain.spc' id='totr_mountain'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/totr_mountain.mml'>Source</a></td>
@@ -2747,7 +2872,7 @@ table {
 <td>totr_pathboss</td>
 <td>Treasure of the Rudras</td>
 <td>Evil Eyes</td>
-<td>NYI</td>
+<td>1:50</td>
 <td>Ryuji Sasai</td>
 <td>emberling</td>
 <td><a href='totr_pathboss.spc' id='totr_pathboss'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/totr_pathboss.mml'>Source</a></td>
@@ -2757,7 +2882,7 @@ table {
 <td>totr_sboss</td>
 <td>Treasure of the Rudras</td>
 <td>Strange Encounter</td>
-<td>NYI</td>
+<td>1:24</td>
 <td>Ryuji Sasai</td>
 <td>emberling</td>
 <td><a href='totr_sboss.spc' id='totr_sboss'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/totr_sboss.mml'>Source</a></td>
@@ -2767,7 +2892,7 @@ table {
 <td>totr_underworld</td>
 <td>Treasure of the Rudras</td>
 <td>Under World</td>
-<td>NYI</td>
+<td>1:09</td>
 <td>Ryuji Sasai</td>
 <td>emberling</td>
 <td><a href='totr_underworld.spc' id='totr_underworld'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/totr_underworld.mml'>Source</a></td>
@@ -2777,7 +2902,7 @@ table {
 <td>wa2_dungeon2</td>
 <td>Wild Arms 2</td>
 <td>Dungeon — Type 2</td>
-<td>NYI</td>
+<td>1:37</td>
 <td>Michiko Naruke</td>
 <td>Rushlight</td>
 <td><a href='wa2_dungeon2.spc' id='wa2_dungeon2'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/wa2_dungeon2.mml'>Source</a></td>
@@ -2787,7 +2912,7 @@ table {
 <td>wa2_heimdal</td>
 <td>Wild Arms 2</td>
 <td>Dungeon — Heimdal Gazzo</td>
-<td>NYI</td>
+<td>1:14</td>
 <td>Michiko Naruke</td>
 <td>Rushlight</td>
 <td><a href='wa2_heimdal.spc' id='wa2_heimdal'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/wa2_heimdal.mml'>Source</a></td>
@@ -2797,7 +2922,7 @@ table {
 <td>wa_zed</td>
 <td>Wild Arms</td>
 <td>Wh-What? (Zed's Theme)</td>
-<td>NYI</td>
+<td>1:25</td>
 <td>Michiko Naruke</td>
 <td>Gi Nattak, emberling</td>
 <td><a href='wa_zed.spc' id='wa_zed'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/wa_zed.mml'>Source</a></td>
@@ -2807,7 +2932,7 @@ table {
 <td>xc1_machina</td>
 <td>Xenoblade Chronicles</td>
 <td>Hidden Machina Village</td>
-<td>NYI</td>
+<td>4:31</td>
 <td>Manami Kiyota</td>
 <td>emberling</td>
 <td><a href='xc1_machina.spc' id='xc1_machina'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/xc1_machina.mml'>Source</a></td>
@@ -2817,7 +2942,7 @@ table {
 <td>xcx_sylvan</td>
 <td>Xenoblade X</td>
 <td>46-:ri9 (night)</td>
-<td>NYI</td>
+<td>5:04</td>
 <td>Hiroyuki Sawano</td>
 <td>emberling</td>
 <td><a href='xcx_sylvan.spc' id='xcx_sylvan'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/xcx_sylvan.mml'>Source</a></td>
@@ -2827,7 +2952,7 @@ table {
 <td>xg_boss</td>
 <td>Xenogears</td>
 <td>Knight of Fire // Crimson Knight</td>
-<td>NYI</td>
+<td>2:33</td>
 <td>Yasunori Mitsuda</td>
 <td>emberling</td>
 <td><a href='xg_boss.spc' id='xg_boss'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/xg_boss.mml'>Source</a></td>
@@ -2837,7 +2962,7 @@ table {
 <td>xg_mermaid</td>
 <td>Xenogears</td>
 <td>June Mermaid</td>
-<td>NYI</td>
+<td>4:14</td>
 <td>Yasunori Mitsuda</td>
 <td>emberling</td>
 <td><a href='xg_mermaid.spc' id='xg_mermaid'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/xg_mermaid.mml'>Source</a></td>
@@ -2847,7 +2972,7 @@ table {
 <td>xg_weltall</td>
 <td>Xenogears</td>
 <td>Steel Giant</td>
-<td>NYI</td>
+<td>2:17</td>
 <td>Yasunori Mitsuda</td>
 <td>emberling</td>
 <td><a href='xg_weltall.spc' id='xg_weltall'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/xg_weltall.mml'>Source</a></td>
@@ -2857,7 +2982,7 @@ table {
 <td>ys4_danan</td>
 <td>Ys IV / Memories of Celceta</td>
 <td>Ancient Legend</td>
-<td>NYI</td>
+<td>7:15</td>
 <td>Atsushi Shirakawa</td>
 <td>emberling</td>
 <td><a href='ys4_danan.spc' id='ys4_danan'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/ys4_danan.mml'>Source</a></td>
@@ -2867,7 +2992,7 @@ table {
 <td>zaol_temple</td>
 <td>Zelda II: The Adventure of Link</td>
 <td>Temple BGM</td>
-<td>NYI</td>
+<td>3:07</td>
 <td>Akito Nakatsuka</td>
 <td>emberling</td>
 <td><a href='zaol_temple.spc' id='zaol_temple'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/zaol_temple.mml'>Source</a></td>

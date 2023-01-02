@@ -1,0 +1,294 @@
+<head><title>Upcoming tracks</title></head><body>
+<link rel="stylesheet" href="https://unpkg.com/@smwcentral/spc-player@1.2.0/dist/spc_player.css">
+<link rel="stylesheet" href="../johnnydmad.css">
+<script src="https://unpkg.com/@smwcentral/spc-player@1.2.0/dist/spc.js"></script>
+
+<style>
+table {
+    margin-left: auto;
+    margin-right: auto;
+    }
+</style>
+<div class="nav">
+<ul class="nav"><li class="nav">Libraries:</li>
+<li><a href='../core/' class='nav-inactive'>Core</a></li><li><a href='../legacy/' class='nav-inactive'>Legacy</a></li><li><a href='../tierboss/' class='nav-inactive'>Tierboss</a></li><li><a href='../victory/' class='nav-inactive'>Victory</a></li><li><a href='../sleep/' class='nav-inactive'>Sleep</a></li><li><a href='../game_over/' class='nav-inactive'>Game over</a></li><li><a href='../static/' class='nav-inactive'>Static</a></li><li><a href='../upcoming/' class='nav-active'>Upcoming</a></li>
+</ul></div>
+<div class="divmain">
+<a href="..">Go back</a>
+
+<h1>Upcoming tracks</h1><p>Tracks that have been completed but not yet included in any official releases. This includes tracks that have been modified or replaced in order to move from "legacy" to "core."</p><table>
+<tr>
+<th></th>
+<th>file</th>
+<th>Origin game</th>
+<th>Title</th>
+<th>Runtime</th>
+<th>Original composer</th>
+<th>Arranged/ported by</th>
+<th>Download</th>
+</tr>
+<tr>
+<td><button type='button' onclick='playSpcFile("ct_crisis")'>PLAY</button></td>
+<td>ct_crisis</td>
+<td>Chrono Trigger</td>
+<td>A Shot of Crisis</td>
+<td>1:43</td>
+<td>Yasunori Mitsuda</td>
+<td>emberling</td>
+<td><a href='ct_crisis.spc' id='ct_crisis'>SPC</a> <a href='nonect_crisis.mml'>Source</a></td>
+</tr>
+<tr>
+<td><button type='button' onclick='playSpcFile("ct_schala")'>PLAY</button></td>
+<td>ct_schala</td>
+<td>Chrono Trigger</td>
+<td>Schala's Theme</td>
+<td>2:33</td>
+<td>Yasunori Mitsuda</td>
+<td>emberling</td>
+<td><a href='ct_schala.spc' id='ct_schala'>SPC</a> <a href='nonect_schala.mml'>Source</a></td>
+</tr>
+<tr>
+<td><button type='button' onclick='playSpcFile("duck_moon")'>PLAY</button></td>
+<td>duck_moon</td>
+<td>DuckTales</td>
+<td>The Moon</td>
+<td>3:10</td>
+<td>Hiroshige Tonomura</td>
+<td>emberling</td>
+<td><a href='duck_moon.spc' id='duck_moon'>SPC</a> <a href='noneduck_moon.mml'>Source</a></td>
+</tr>
+<tr>
+<td><button type='button' onclick='playSpcFile("ff10_ambition")'>PLAY</button></td>
+<td>ff10_ambition</td>
+<td>Final Fantasy X</td>
+<td>Seymour's Ambition</td>
+<td>3:33</td>
+<td>Nobuo Uematsu</td>
+<td>emberling</td>
+<td><a href='ff10_ambition.spc' id='ff10_ambition'>SPC</a> <a href='noneff10_ambition.mml'>Source</a></td>
+</tr>
+<tr>
+<td><button type='button' onclick='playSpcFile("ff2_castle")'>PLAY</button></td>
+<td>ff2_castle</td>
+<td>Final Fantasy II</td>
+<td>Ancient Castle</td>
+<td>2:31</td>
+<td>Nobuo Uematsu</td>
+<td>emberling</td>
+<td><a href='ff2_castle.spc' id='ff2_castle'>SPC</a> <a href='noneff2_castle.mml'>Source</a></td>
+</tr>
+<tr>
+<td><button type='button' onclick='playSpcFile("ff5_town")'>PLAY</button></td>
+<td>ff5_town</td>
+<td>Final Fantasy 5</td>
+<td>Tenderness in the Air</td>
+<td>2:34</td>
+<td>Nobuo Uematsu</td>
+<td>emberling</td>
+<td><a href='ff5_town.spc' id='ff5_town'>SPC</a> <a href='noneff5_town.mml'>Source</a></td>
+</tr>
+<tr>
+<td><button type='button' onclick='playSpcFile("ff9_cleyra")'>PLAY</button></td>
+<td>ff9_cleyra</td>
+<td>Final Fantasy 9</td>
+<td>Cleyra Settlement</td>
+<td>1:58</td>
+<td>Nobuo Uematsu</td>
+<td>HoxNorf</td>
+<td><a href='ff9_cleyra.spc' id='ff9_cleyra'>SPC</a> <a href='noneff9_cleyra.mml'>Source</a></td>
+</tr>
+<tr>
+<td><button type='button' onclick='playSpcFile("ff9_memoria")'>PLAY</button></td>
+<td>ff9_memoria</td>
+<td>Final Fantasy IX</td>
+<td>Memoria</td>
+<td>3:42</td>
+<td>Nobuo Uematsu</td>
+<td>emberling</td>
+<td><a href='ff9_memoria.spc' id='ff9_memoria'>SPC</a> <a href='noneff9_memoria.mml'>Source</a></td>
+</tr>
+<tr>
+<td><button type='button' onclick='playSpcFile("ffmq_hill")'>PLAY</button></td>
+<td>ffmq_hill</td>
+<td>Final Fantasy Mystic Quest</td>
+<td>Hill of Destiny</td>
+<td>2:28</td>
+<td>Ryuji Sasai</td>
+<td>emberling</td>
+<td><a href='ffmq_hill.spc' id='ffmq_hill'>SPC</a> <a href='noneffmq_hill.mml'>Source</a></td>
+</tr>
+<tr>
+<td><button type='button' onclick='playSpcFile("met3_lowernorfair")'>PLAY</button></td>
+<td>met3_lowernorfair</td>
+<td>Super Metroid</td>
+<td>Norfair Ancient Ruins Area</td>
+<td>4:30</td>
+<td>Kenji Yamamoto</td>
+<td>Rushlight</td>
+<td><a href='met3_lowernorfair.spc' id='met3_lowernorfair'>SPC</a> <a href='nonemet3_lowernorfair.mml'>Source</a></td>
+</tr>
+<tr>
+<td><button type='button' onclick='playSpcFile("pfwotr_warcamp")'>PLAY</button></td>
+<td>pfwotr_warcamp</td>
+<td>Pathfinder: Wrath of the Righteous</td>
+<td>Those Who Stand Against Evil</td>
+<td>3:00</td>
+<td>Dmitriy V. Silantyev</td>
+<td>emberling</td>
+<td><a href='pfwotr_warcamp.spc' id='pfwotr_warcamp'>SPC</a> <a href='nonepfwotr_warcamp.mml'>Source</a></td>
+</tr>
+<tr>
+<td><button type='button' onclick='playSpcFile("pkmnrse_fallarbor")'>PLAY</button></td>
+<td>pkmnrse_fallarbor</td>
+<td>Pokemon Ruby // Sapphire // Emerald</td>
+<td>Fallarbor Town</td>
+<td>1:52</td>
+<td>Junichi Masuda, Go Ichinose</td>
+<td>HoxNorf</td>
+<td><a href='pkmnrse_fallarbor.spc' id='pkmnrse_fallarbor'>SPC</a> <a href='nonepkmnrse_fallarbor.mml'>Source</a></td>
+</tr>
+<tr>
+<td><button type='button' onclick='playSpcFile("pkmnrse_route101")'>PLAY</button></td>
+<td>pkmnrse_route101</td>
+<td>Pokemon Ruby // Sapphire // Emerald</td>
+<td>Route 101</td>
+<td>1:13</td>
+<td>Morikazu Aoki</td>
+<td>HoxNorf</td>
+<td><a href='pkmnrse_route101.spc' id='pkmnrse_route101'>SPC</a> <a href='nonepkmnrse_route101.mml'>Source</a></td>
+</tr>
+<tr>
+<td><button type='button' onclick='playSpcFile("ptsk_base")'>PLAY</button></td>
+<td>ptsk_base</td>
+<td>Princess Tomato in the Salad Kingdom</td>
+<td>Resistance Base</td>
+<td>1:56</td>
+<td>Tomotsune Maeno</td>
+<td>Rushlight</td>
+<td><a href='ptsk_base.spc' id='ptsk_base'>SPC</a> <a href='noneptsk_base.mml'>Source</a></td>
+</tr>
+<tr>
+<td><button type='button' onclick='playSpcFile("sd2_scorpion")'>PLAY</button></td>
+<td>sd2_scorpion</td>
+<td>Secret of Mana</td>
+<td>A Curious Happening</td>
+<td>1:49</td>
+<td>Hiroki Kikuta</td>
+<td>emberling</td>
+<td><a href='sd2_scorpion.spc' id='sd2_scorpion'>SPC</a> <a href='nonesd2_scorpion.mml'>Source</a></td>
+</tr>
+<tr>
+<td><button type='button' onclick='playSpcFile("sd2_thunder")'>PLAY</button></td>
+<td>sd2_thunder</td>
+<td>Secret of Mana</td>
+<td>Distant Thunder</td>
+<td>3:15</td>
+<td>Hiroki Kikuta</td>
+<td>emberling</td>
+<td><a href='sd2_thunder.spc' id='sd2_thunder'>SPC</a> <a href='nonesd2_thunder.mml'>Source</a></td>
+</tr>
+<tr>
+<td><button type='button' onclick='playSpcFile("smrpg_forest")'>PLAY</button></td>
+<td>smrpg_forest</td>
+<td>Super Mario RPG</td>
+<td>Beware the Forest's Mushrooms</td>
+<td>1:57</td>
+<td>Yoko Shimomura</td>
+<td>HoxNorf</td>
+<td><a href='smrpg_forest.spc' id='smrpg_forest'>SPC</a> <a href='nonesmrpg_forest.mml'>Source</a></td>
+</tr>
+<tr>
+<td><button type='button' onclick='playSpcFile("xc3_alfeto")'>PLAY</button></td>
+<td>xc3_alfeto</td>
+<td>Xenoblade Chronicles 3</td>
+<td>Alfeto Valley</td>
+<td>5:26</td>
+<td>Kenji Hiramatsu</td>
+<td>emberling</td>
+<td><a href='xc3_alfeto.spc' id='xc3_alfeto'>SPC</a> <a href='nonexc3_alfeto.mml'>Source</a></td>
+</tr>
+<tr>
+<td><button type='button' onclick='playSpcFile("xg_theme")'>PLAY</button></td>
+<td>xg_theme</td>
+<td>Xenogears</td>
+<td>Faraway Promise (reorchestrated)</td>
+<td>3:08</td>
+<td>Yasunori Mitsuda</td>
+<td>emberling</td>
+<td><a href='xg_theme.spc' id='xg_theme'>SPC</a> <a href='nonexg_theme.mml'>Source</a></td>
+</tr>
+<tr>
+<td><button type='button' onclick='playSpcFile("xg_world")'>PLAY</button></td>
+<td>xg_world</td>
+<td>Xenogears</td>
+<td>Emotions</td>
+<td>2:57</td>
+<td>Yasunori Mitsuda</td>
+<td>emberling</td>
+<td><a href='xg_world.spc' id='xg_world'>SPC</a> <a href='nonexg_world.mml'>Source</a></td>
+</tr>
+<tr>
+<td><button type='button' onclick='playSpcFile("ys8_idance")'>PLAY</button></td>
+<td>ys8_idance</td>
+<td>Ys VIII: Lacrimosa of Dana</td>
+<td>Iclucian Dance</td>
+<td>2:32</td>
+<td>Mitsuo Singa</td>
+<td>emberling</td>
+<td><a href='ys8_idance.spc' id='ys8_idance'>SPC</a> <a href='noneys8_idance.mml'>Source</a></td>
+</tr>
+</table>
+
+<a href="..">Go back</a>
+<h6>Using <a href="https://github.com/telinc1/smwcentral-spc-player">smwcentral-spc-player</a> by telinc1</h6>
+</div>
+
+<!-- begin smwcentral-spc-player code -->
+<!-- github.com/telinc1/smwcentral-spc-player -->
+<input type="checkbox" id="spc-player-toggle">
+<input type="checkbox" id="spc-player-loop" checked>
+<input type="checkbox" id="spc-player-move">
+<div id="spc-player-interface" class="spc-player">
+	<div class="header">
+		<div class="group-left">
+			<label for="spc-player-toggle" class="toggle" title="Toggle player"><svg width="24" height="24" viewBox="0 0 24 24"><path d="M20 12l-1.41-1.41L13 16.17V4h-2v12.17l-5.58-5.59L4 12l8 8 8-8z" /></svg></label>
+			<a class="pause" title="Pause song"><svg width="24" height="24" viewBox="0 0 24 24"><path d="M6 19h4V5H6v14zm8-14v14h4V5h-4z" /></svg></a>
+			<a class="play hidden" title="Resume song"><svg width="24" height="24" viewBox="0 0 24 24"><path d="M8 5v14l11-7z" /></svg></a>
+		</div>
+		<div class="group-right">
+			<label for="spc-player-loop" class="loop" title="Toggle looping"><svg class="check" width="16" height="16" viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" /></svg><svg width="24" height="24" viewBox="0 0 24 24"><path d="M12 4V1L8 5l4 4V6c3.31 0 6 2.69 6 6 0 1.01-.25 1.97-.7 2.8l1.46 1.46C19.54 15.03 20 13.57 20 12c0-4.42-3.58-8-8-8zm0 14c-3.31 0-6-2.69-6-6 0-1.01.25-1.97.7-2.8L5.24 7.74C4.46 8.97 4 10.43 4 12c0 4.42 3.58 8 8 8v3l4-4-4-4v3z" /></svg></label>
+			<a class="restart" title="Restart song"><svg width="24" height="24" viewBox="0 0 24 24"><path d="M12 5V1L7 6l5 5V7c3.31 0 6 2.69 6 6s-2.69 6-6 6-6-2.69-6-6H4c0 4.42 3.58 8 8 8s8-3.58 8-8-3.58-8-8-8z" /></svg></a>
+			<a class="stop" title="Stop song"><svg width="24" height="24" viewBox="0 0 24 24"><path d="M6 6h12v12H6z" /></svg></a>
+		</div>
+	</div>
+	<h2>Song Title</h2>
+	<h3 style="display: none;"></h3>
+	<aside style="display: none;"></aside>
+	<div class="seek" style="display: none;"><span></span></div>
+	<ul style="display: none;"></ul>
+	<div class="volume">
+		<svg width="24" height="24" viewBox="0 0 24 24"><path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3c0-1.77-1.02-3.29-2.5-4.03v8.05c1.48-.73 2.5-2.25 2.5-4.02zM14 3.23v2.06c2.89.86 5 3.54 5 6.71s-2.11 5.85-5 6.71v2.06c4.01-.91 7-4.49 7-8.77s-2.99-7.86-7-8.77z" /></svg>
+		<span>100%</span>
+		<div class="volume-control"><div class="slider" title="Volume"><div class="fill"></div></div></div>
+	</div>
+	<label for="spc-player-move" class="move" title="Move player"><svg width="24" height="24" viewBox="0 0 24 24"><path d="M14 7l-5 5 5 5V7z" /></svg></label>
+</div>
+<!-- end smwcentral-spc-player code -->
+
+<script>
+function playSpcFile(name) {
+    SMWCentral.SPCPlayer.loadFromLink(document.getElementById(name));
+}
+
+const queryString = window.location.search;
+const urlParams = new URLSearchParams(queryString);
+
+document.addEventListener("DOMContentLoaded", function(){ 
+if (urlParams.has('fn')) {
+    playSpcFile(urlParams.get('fn'));
+}});
+
+</script>
+</body>
+
+<!--<a href="#" data-spc="section" data-spc-section="smwmusic" data-spc-file="32163" title="Play SPC" class="button script-only"><svg width="24" height="24" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"></path></svg></a>-->

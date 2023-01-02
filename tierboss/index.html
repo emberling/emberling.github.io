@@ -1,0 +1,334 @@
+<head><title>Tierboss fragments</title></head><body>
+<link rel="stylesheet" href="https://unpkg.com/@smwcentral/spc-player@1.2.0/dist/spc_player.css">
+<link rel="stylesheet" href="../johnnydmad.css">
+<script src="https://unpkg.com/@smwcentral/spc-player@1.2.0/dist/spc.js"></script>
+
+<style>
+table {
+    margin-left: auto;
+    margin-right: auto;
+    }
+</style>
+<div class="nav">
+<ul class="nav"><li class="nav">Libraries:</li>
+<li><a href='../core/' class='nav-active'>Core</a></li><li><a href='../legacy/' class='nav-inactive'>Legacy</a></li><li><a href='../tierboss/' class='nav-inactive'>Tierboss</a></li><li><a href='../victory/' class='nav-inactive'>Victory</a></li><li><a href='../sleep/' class='nav-inactive'>Sleep</a></li><li><a href='../game_over/' class='nav-inactive'>Game over</a></li><li><a href='../static/' class='nav-inactive'>Static</a></li><li><a href='../upcoming/' class='nav-inactive'>Upcoming</a></li>
+</ul></div>
+<div class="divmain">
+<a href="..">Go back</a>
+
+<h1>Tierboss fragments</h1><p>The first three phases of the final boss fight ("tiers") use one logical music track that advances between three sections as you progress through the fight. The randomizer picks three pieces from this list and arranges them in random order to create a new set of three boss musics. Because it is only loaded as a single track, each of these fragments has significantly more stringent requirements on memory for both the sequence and the samples used. Therefore, the list here is missing a lot of the fancier fun battle themes that are more demanding on memory, and samples are heavily shared while keeping to the original organs-and-choirs aesthetic.</p><table>
+<tr>
+<th></th>
+<th>file</th>
+<th>Origin game</th>
+<th>Title</th>
+<th>Runtime</th>
+<th>Original composer</th>
+<th>Arranged/ported by</th>
+<th>Download</th>
+</tr>
+<tr>
+<td><button type='button' onclick='playSpcFile("cc_flame")'>PLAY</button></td>
+<td>cc_flame</td>
+<td>Chrono Cross</td>
+<td>Orphanage In Flames (Dancing Mad ver.)</td>
+<td>2:25</td>
+<td>Yasunori Mitsuda</td>
+<td>Gi Nattak, adjusted for tierboss by emberling</td>
+<td><a href='cc_flame.spc' id='cc_flame'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/dm/cc_flame.mml'>Source</a></td>
+</tr>
+<tr>
+<td><button type='button' onclick='playSpcFile("ct_battle2")'>PLAY</button></td>
+<td>ct_battle2</td>
+<td>Chrono Trigger</td>
+<td>Battle 2</td>
+<td>1:27</td>
+<td>Yasunori Mitsuda</td>
+<td>emberling</td>
+<td><a href='ct_battle2.spc' id='ct_battle2'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/dm/ct_battle2.mml'>Source</a></td>
+</tr>
+<tr>
+<td><button type='button' onclick='playSpcFile("ct_lavos")'>PLAY</button></td>
+<td>ct_lavos</td>
+<td>Chrono Trigger</td>
+<td>Lavos' Theme (Dancing Mad ver.)</td>
+<td>4:56</td>
+<td>Yasunori Mitsuda</td>
+<td>HoxNorf, emberling</td>
+<td><a href='ct_lavos.spc' id='ct_lavos'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/dm/ct_lavos.mml'>Source</a></td>
+</tr>
+<tr>
+<td><button type='button' onclick='playSpcFile("ff3_eureka")'>PLAY</button></td>
+<td>ff3_eureka</td>
+<td>Final Fantasy III</td>
+<td>Forbidden Land Eureka (Dancing Mad remix)</td>
+<td>5:59</td>
+<td>Nobuo Uematsu</td>
+<td>emberling, based on previous arrangements by Gi Nattak and tsushiy</td>
+<td><a href='ff3_eureka.spc' id='ff3_eureka'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/dm/ff3_eureka.mml'>Source</a></td>
+</tr>
+<tr>
+<td><button type='button' onclick='playSpcFile("ff4_fiend")'>PLAY</button></td>
+<td>ff4_fiend</td>
+<td>Final Fantasy IV</td>
+<td>Battle With the Four Fiends</td>
+<td>2:59</td>
+<td>Nobuo Uematsu</td>
+<td>emberling</td>
+<td><a href='ff4_fiend.spc' id='ff4_fiend'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/dm/ff4_fiend.mml'>Source</a></td>
+</tr>
+<tr>
+<td><button type='button' onclick='playSpcFile("ff4_golbez")'>PLAY</button></td>
+<td>ff4_golbez</td>
+<td>Final Fantasy IV</td>
+<td>Golbez, Clad in Darkness</td>
+<td>1:53</td>
+<td>Nobuo Uematsu</td>
+<td>emberling</td>
+<td><a href='ff4_golbez.spc' id='ff4_golbez'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/dm/ff4_golbez.mml'>Source</a></td>
+</tr>
+<tr>
+<td><button type='button' onclick='playSpcFile("ff5_excastle")'>PLAY</button></td>
+<td>ff5_excastle</td>
+<td>Final Fantasy V</td>
+<td>Exdeath's Castle</td>
+<td>2:13</td>
+<td>Nobuo Uematsu</td>
+<td>emberling</td>
+<td><a href='ff5_excastle.spc' id='ff5_excastle'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/dm/ff5_excastle.mml'>Source</a></td>
+</tr>
+<tr>
+<td><button type='button' onclick='playSpcFile("ff5_seal")'>PLAY</button></td>
+<td>ff5_seal</td>
+<td>Final Fantasy V</td>
+<td>Sealed Away</td>
+<td>1:42</td>
+<td>Nobuo Uematsu</td>
+<td>emberling</td>
+<td><a href='ff5_seal.spc' id='ff5_seal'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/dm/ff5_seal.mml'>Source</a></td>
+</tr>
+<tr>
+<td><button type='button' onclick='playSpcFile("ff6_fanatics_chorus")'>PLAY</button></td>
+<td>ff6_fanatics_chorus</td>
+<td>Final Fantasy VI</td>
+<td>The Fanatics</td>
+<td>1:22</td>
+<td>Nobuo Uematsu</td>
+<td>emberling</td>
+<td><a href='ff6_fanatics_chorus.spc' id='ff6_fanatics_chorus'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/dm/ff6_fanatics_chorus.mml'>Source</a></td>
+</tr>
+<tr>
+<td><button type='button' onclick='playSpcFile("ff6_fanatics_dm")'>PLAY</button></td>
+<td>ff6_fanatics_dm</td>
+<td>Final Fantasy VI</td>
+<td>The Fanatics</td>
+<td>1:22</td>
+<td>Nobuo Uematsu</td>
+<td>emberling</td>
+<td><a href='ff6_fanatics_dm.spc' id='ff6_fanatics_dm'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/dm/ff6_fanatics_dm.mml'>Source</a></td>
+</tr>
+<tr>
+<td><button type='button' onclick='playSpcFile("ff6_tier1_chorus")'>PLAY</button></td>
+<td>ff6_tier1_chorus</td>
+<td>Final Fantasy VI</td>
+<td>Dancing Mad (Tier 1)</td>
+<td>3:40</td>
+<td>Nobuo Uematsu</td>
+<td>emberling</td>
+<td><a href='ff6_tier1_chorus.spc' id='ff6_tier1_chorus'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/dm/ff6_tier1_chorus.mml'>Source</a></td>
+</tr>
+<tr>
+<td><button type='button' onclick='playSpcFile("ff6_tier1_dm")'>PLAY</button></td>
+<td>ff6_tier1_dm</td>
+<td>Final Fantasy VI</td>
+<td>Dancing Mad (Tier 1)</td>
+<td>3:40</td>
+<td>Nobuo Uematsu</td>
+<td>emberling</td>
+<td><a href='ff6_tier1_dm.spc' id='ff6_tier1_dm'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/dm/ff6_tier1_dm.mml'>Source</a></td>
+</tr>
+<tr>
+<td><button type='button' onclick='playSpcFile("ff6_tier2_chorus")'>PLAY</button></td>
+<td>ff6_tier2_chorus</td>
+<td>Final Fantasy VI</td>
+<td>Dancing Mad (Tier 2)</td>
+<td>3:30</td>
+<td>Nobuo Uematsu</td>
+<td>Nobuo Uematsu</td>
+<td><a href='ff6_tier2_chorus.spc' id='ff6_tier2_chorus'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/dm/ff6_tier2_chorus.mml'>Source</a></td>
+</tr>
+<tr>
+<td><button type='button' onclick='playSpcFile("ff6_tier2_dm")'>PLAY</button></td>
+<td>ff6_tier2_dm</td>
+<td>Final Fantasy VI</td>
+<td>Dancing Mad (Tier 2)</td>
+<td>3:30</td>
+<td>Nobuo Uematsu</td>
+<td>Nobuo Uematsu</td>
+<td><a href='ff6_tier2_dm.spc' id='ff6_tier2_dm'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/dm/ff6_tier2_dm.mml'>Source</a></td>
+</tr>
+<tr>
+<td><button type='button' onclick='playSpcFile("ff6_tier3")'>PLAY</button></td>
+<td>ff6_tier3</td>
+<td>Final Fantasy VI</td>
+<td>Dancing Mad (Tier 3)</td>
+<td>3:19</td>
+<td>Nobuo Uematsu</td>
+<td>Nobuo Uematsu</td>
+<td><a href='ff6_tier3.spc' id='ff6_tier3'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/dm/ff6_tier3.mml'>Source</a></td>
+</tr>
+<tr>
+<td><button type='button' onclick='playSpcFile("ff7_final_part1")'>PLAY</button></td>
+<td>ff7_final_part1</td>
+<td>Final Fantasy VII</td>
+<td>One Winged Angel pt.1</td>
+<td>2:23</td>
+<td>Nobuo Uematsu</td>
+<td>emberling</td>
+<td><a href='ff7_final_part1.spc' id='ff7_final_part1'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/dm/ff7_final_part1.mml'>Source</a></td>
+</tr>
+<tr>
+<td><button type='button' onclick='playSpcFile("ff8_witches")'>PLAY</button></td>
+<td>ff8_witches</td>
+<td>Final Fantasy VIII</td>
+<td>Succession of Witches (Dancing Mad remix)</td>
+<td>3:22</td>
+<td>Nobuo Uematsu</td>
+<td>emberling</td>
+<td><a href='ff8_witches.spc' id='ff8_witches'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/dm/ff8_witches.mml'>Source</a></td>
+</tr>
+<tr>
+<td><button type='button' onclick='playSpcFile("ff9_blackwaltz")'>PLAY</button></td>
+<td>ff9_blackwaltz</td>
+<td>Final Fantasy IX</td>
+<td>The Black Waltz</td>
+<td>1:26</td>
+<td>Nobuo Uematsu</td>
+<td>emberling</td>
+<td><a href='ff9_blackwaltz.spc' id='ff9_blackwaltz'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/dm/ff9_blackwaltz.mml'>Source</a></td>
+</tr>
+<tr>
+<td><button type='button' onclick='playSpcFile("ffmq_boss")'>PLAY</button></td>
+<td>ffmq_boss</td>
+<td>Final Fantasy Mystic Quest</td>
+<td>Battle 2</td>
+<td>1:59</td>
+<td>Ryuji Sasai</td>
+<td>emberling</td>
+<td><a href='ffmq_boss.spc' id='ffmq_boss'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/dm/ffmq_boss.mml'>Source</a></td>
+</tr>
+<tr>
+<td><button type='button' onclick='playSpcFile("ffmq_lava")'>PLAY</button></td>
+<td>ffmq_lava</td>
+<td>Final Fantasy Mystic Quest</td>
+<td>Lava Dome (Dancing Mad Remix)</td>
+<td>3:42</td>
+<td>Ryuji Sasai</td>
+<td>emberling</td>
+<td><a href='ffmq_lava.spc' id='ffmq_lava'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/dm/ffmq_lava.mml'>Source</a></td>
+</tr>
+<tr>
+<td><button type='button' onclick='playSpcFile("iog_whispers")'>PLAY</button></td>
+<td>iog_whispers</td>
+<td>Illusion of Gaia</td>
+<td>Ominous Whispers</td>
+<td>3:43</td>
+<td>Yasuhiro Kawasaki</td>
+<td>emberling</td>
+<td><a href='iog_whispers.spc' id='iog_whispers'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/dm/iog_whispers.mml'>Source</a></td>
+</tr>
+<tr>
+<td><button type='button' onclick='playSpcFile("met3_brain")'>PLAY</button></td>
+<td>met3_brain</td>
+<td>Super Metroid</td>
+<td>Mother Brain</td>
+<td>2:14</td>
+<td>Minako Hamano</td>
+<td>emberling</td>
+<td><a href='met3_brain.spc' id='met3_brain'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/dm/met3_brain.mml'>Source</a></td>
+</tr>
+<tr>
+<td><button type='button' onclick='playSpcFile("sd2_thanatos")'>PLAY</button></td>
+<td>sd2_thanatos</td>
+<td>Secret of Mana</td>
+<td>Ceremony</td>
+<td>1:40</td>
+<td>Hiroki Kikuta</td>
+<td>emberling</td>
+<td><a href='sd2_thanatos.spc' id='sd2_thanatos'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/dm/sd2_thanatos.mml'>Source</a></td>
+</tr>
+<tr>
+<td><button type='button' onclick='playSpcFile("top_boss")'>PLAY</button></td>
+<td>top_boss</td>
+<td>Tales of Phantasia</td>
+<td>Overcome Difficulties</td>
+<td>1:34</td>
+<td>Motoi Sakuraba, Shinji Tamura</td>
+<td>emberling</td>
+<td><a href='top_boss.spc' id='top_boss'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/dm/top_boss.mml'>Source</a></td>
+</tr>
+<tr>
+<td><button type='button' onclick='playSpcFile("xg_weltall")'>PLAY</button></td>
+<td>xg_weltall</td>
+<td>Xenogears</td>
+<td>Steel Giant (DM)</td>
+<td>2:36</td>
+<td>Yasunori Mitsuda</td>
+<td>emberling</td>
+<td><a href='xg_weltall.spc' id='xg_weltall'>SPC</a> <a href='https://github.com/emberling/johnnydmad/blob/main/custom/dm/xg_weltall.mml'>Source</a></td>
+</tr>
+</table>
+
+<a href="..">Go back</a>
+<h6>Using <a href="https://github.com/telinc1/smwcentral-spc-player">smwcentral-spc-player</a> by telinc1</h6>
+</div>
+
+<!-- begin smwcentral-spc-player code -->
+<!-- github.com/telinc1/smwcentral-spc-player -->
+<input type="checkbox" id="spc-player-toggle">
+<input type="checkbox" id="spc-player-loop" checked>
+<input type="checkbox" id="spc-player-move">
+<div id="spc-player-interface" class="spc-player">
+	<div class="header">
+		<div class="group-left">
+			<label for="spc-player-toggle" class="toggle" title="Toggle player"><svg width="24" height="24" viewBox="0 0 24 24"><path d="M20 12l-1.41-1.41L13 16.17V4h-2v12.17l-5.58-5.59L4 12l8 8 8-8z" /></svg></label>
+			<a class="pause" title="Pause song"><svg width="24" height="24" viewBox="0 0 24 24"><path d="M6 19h4V5H6v14zm8-14v14h4V5h-4z" /></svg></a>
+			<a class="play hidden" title="Resume song"><svg width="24" height="24" viewBox="0 0 24 24"><path d="M8 5v14l11-7z" /></svg></a>
+		</div>
+		<div class="group-right">
+			<label for="spc-player-loop" class="loop" title="Toggle looping"><svg class="check" width="16" height="16" viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" /></svg><svg width="24" height="24" viewBox="0 0 24 24"><path d="M12 4V1L8 5l4 4V6c3.31 0 6 2.69 6 6 0 1.01-.25 1.97-.7 2.8l1.46 1.46C19.54 15.03 20 13.57 20 12c0-4.42-3.58-8-8-8zm0 14c-3.31 0-6-2.69-6-6 0-1.01.25-1.97.7-2.8L5.24 7.74C4.46 8.97 4 10.43 4 12c0 4.42 3.58 8 8 8v3l4-4-4-4v3z" /></svg></label>
+			<a class="restart" title="Restart song"><svg width="24" height="24" viewBox="0 0 24 24"><path d="M12 5V1L7 6l5 5V7c3.31 0 6 2.69 6 6s-2.69 6-6 6-6-2.69-6-6H4c0 4.42 3.58 8 8 8s8-3.58 8-8-3.58-8-8-8z" /></svg></a>
+			<a class="stop" title="Stop song"><svg width="24" height="24" viewBox="0 0 24 24"><path d="M6 6h12v12H6z" /></svg></a>
+		</div>
+	</div>
+	<h2>Song Title</h2>
+	<h3 style="display: none;"></h3>
+	<aside style="display: none;"></aside>
+	<div class="seek" style="display: none;"><span></span></div>
+	<ul style="display: none;"></ul>
+	<div class="volume">
+		<svg width="24" height="24" viewBox="0 0 24 24"><path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3c0-1.77-1.02-3.29-2.5-4.03v8.05c1.48-.73 2.5-2.25 2.5-4.02zM14 3.23v2.06c2.89.86 5 3.54 5 6.71s-2.11 5.85-5 6.71v2.06c4.01-.91 7-4.49 7-8.77s-2.99-7.86-7-8.77z" /></svg>
+		<span>100%</span>
+		<div class="volume-control"><div class="slider" title="Volume"><div class="fill"></div></div></div>
+	</div>
+	<label for="spc-player-move" class="move" title="Move player"><svg width="24" height="24" viewBox="0 0 24 24"><path d="M14 7l-5 5 5 5V7z" /></svg></label>
+</div>
+<!-- end smwcentral-spc-player code -->
+
+<script>
+function playSpcFile(name) {
+    SMWCentral.SPCPlayer.loadFromLink(document.getElementById(name));
+}
+
+const queryString = window.location.search;
+const urlParams = new URLSearchParams(queryString);
+
+document.addEventListener("DOMContentLoaded", function(){ 
+if (urlParams.has('fn')) {
+    playSpcFile(urlParams.get('fn'));
+}});
+
+</script>
+</body>
+
+<!--<a href="#" data-spc="section" data-spc-section="smwmusic" data-spc-file="32163" title="Play SPC" class="button script-only"><svg width="24" height="24" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"></path></svg></a>-->
