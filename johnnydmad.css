@@ -17,7 +17,7 @@ ul.nav {
     overflow: auto;
     font-family: sans-serif;
     font-weight: bold;
-    font-size: 1.1em;
+    font-size: 1.2em;
 }
 
 li.nav {
@@ -71,6 +71,12 @@ li a.nav-inactive:hover {
     .divmain {
         margin-left: 0;
     }
+}
+
+p {
+    max-width: 50em;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 tr {
